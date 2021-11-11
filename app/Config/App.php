@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://usedcardeko.com/:8080/';
+    public $baseURL = 'http://usedcardeko.com/public/';
 
     /**
      * --------------------------------------------------------------------------
