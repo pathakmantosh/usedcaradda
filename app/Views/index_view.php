@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
-<?php include($baseURL . 'header.php'); ?>
+<?php echo view('header.php'); ?>
 
 <body>
 	<!--Loader-->
@@ -8,7 +8,7 @@
 		<img src="../assets/images/loader.svg" class="loader-img " alt="">
 	</div>
 
-	<?php include($baseURL . 'topbar.php'); ?>
+	<?php echo view('topbar.php'); ?>
 
 	<!--Section-->
 	<div>
@@ -79,207 +79,20 @@
 	</div>
 	<!--Section-->
 
-	<!--Section-->
-	<section class="categories">
-		<div class="container">
-			<div id="small-categories" class="owl-carousel owl-carousel-icons2">
-				<div class="item">
-					<div class="card mb-0">
-						<div class="card-body">
-							<div class="cat-item text-center">
-								<a href="cars-list.html"></a>
-								<div class="cat-img1">
-									<img src="../assets/images/media/logos/1.jpg" alt="img" class="mx-auto">
-								</div>
-								<div class="cat-desc">
-									<h5 class="mb-1">Instinct</h5>
-									<small class="badge badge-pill badge-primary mr-2">45</small><span class="text-muted">Ads are Posted</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="card mb-0">
-						<div class="card-body">
-							<div class="cat-item text-center">
-								<a href="cars-list.html"></a>
-								<div class="cat-img1">
-									<img src="../assets/images/media/logos/2.jpg" alt="img" class="mx-auto">
-								</div>
-								<div class="cat-desc">
-									<h5 class="mb-1">Roamer</h5>
-									<small class="badge badge-pill badge-primary mr-2">32</small><span class="text-muted">Ads are Posted</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="card mb-0">
-						<div class="card-body">
-							<div class="cat-item text-center">
-								<a href="cars-list.html"></a>
-								<div class="cat-img1">
-									<img src="../assets/images/media/logos/3.jpg" alt="img" class="mx-auto">
-								</div>
-								<div class="cat-desc">
-									<h5 class="mb-1">Enigma</h5>
-									<small class="badge badge-pill badge-primary mr-2">19</small><span class="text-muted">Ads are Posted</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="card mb-0">
-						<div class="card-body">
-							<div class="cat-item text-center">
-								<a href="cars-list.html"></a>
-								<div class="cat-img1">
-									<img src="../assets/images/media/logos/4.jpg" alt="img" class="mx-auto">
-								</div>
-								<div class="cat-desc">
-									<h5 class="mb-1">Storm</h5>
-									<small class="badge badge-pill badge-primary mr-2">25</small><span class="text-muted">Ads are Posted</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="card mb-0">
-						<div class="card-body">
-							<div class="cat-item text-center">
-								<a href="cars-list.html"></a>
-								<div class="cat-img1">
-									<img src="../assets/images/media/logos/5.jpg" alt="img" class="mx-auto">
-								</div>
-								<div class="cat-desc">
-									<h5 class="mb-1">Prodigy</h5>
-									<small class="badge badge-pill badge-primary mr-2">23</small><span class="text-muted">Ads are Posted</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="card mb-0">
-						<div class="card-body">
-							<div class="cat-item text-center">
-								<a href="cars-list.html"></a>
-								<div class="cat-img1">
-									<img src="../assets/images/media/logos/6.jpg" alt="img" class="mx-auto">
-								</div>
-								<div class="cat-desc">
-									<h5 class="mb-1">Prospect</h5>
-									<small class="badge badge-pill badge-primary mr-2">52</small><span class="text-muted">Ads are Posted</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="card mb-0">
-						<div class="card-body">
-							<div class="cat-item text-center">
-								<a href="cars-list.html"></a>
-								<div class="cat-img1">
-									<img src="../assets/images/media/logos/7.jpg" alt="img" class="mx-auto">
-								</div>
-								<div class="cat-desc">
-									<h5 class="mb-1">Viper</h5>
-									<small class="badge badge-pill badge-primary mr-2">46</small><span class="text-muted">Ads are Posted</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="card mb-0">
-						<div class="card-body">
-							<div class="cat-item text-center">
-								<a href="cars-list.html"></a>
-								<div class="cat-img1">
-									<img src="../assets/images/media/logos/8.jpg" alt="img" class="mx-auto">
-								</div>
-								<div class="cat-desc">
-									<h5 class="mb-1">Behemoth</h5>
-									<small class="badge badge-pill badge-primary mr-2">22</small><span class="text-muted">Ads are Posted</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="card mb-0">
-						<div class="card-body">
-							<div class="cat-item text-center">
-								<a href="cars-list.html"></a>
-								<div class="cat-img1">
-									<img src="../assets/images/media/logos/9.jpg" alt="img" class="mx-auto">
-								</div>
-								<div class="cat-desc">
-									<h5 class="mb-1">Marvel</h5>
-									<small class="badge badge-pill badge-primary mr-2">31</small><span class="text-muted">Ads are Posted</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="card mb-0">
-						<div class="card-body">
-							<div class="cat-item text-center">
-								<a href="cars-list.html"></a>
-								<div class="cat-img1">
-									<img src="../assets/images/media/logos/10.jpg" alt="img" class="mx-auto">
-								</div>
-								<div class="cat-desc">
-									<h5 class="mb-1">Encounter</h5>
-									<small class="badge badge-pill badge-primary mr-2">12</small><span class="text-muted">Ads are Posted</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="card mb-0">
-						<div class="card-body">
-							<div class="cat-item text-center">
-								<a href="cars-list.html"></a>
-								<div class="cat-img1">
-									<img src="../assets/images/media/logos/11.jpg" alt="img" class="mx-auto">
-								</div>
-								<div class="cat-desc">
-									<h5 class="mb-1">Resolve</h5>
-									<small class="badge badge-pill badge-primary mr-2">21</small><span class="text-muted">Ads are Posted</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="card mb-0">
-						<div class="card-body">
-							<div class="cat-item text-center">
-								<a href="cars-list.html"></a>
-								<div class="cat-img1">
-									<img src="../assets/images/media/logos/12.jpg" alt="img" class="mx-auto">
-								</div>
-								<div class="cat-desc">
-									<h5 class="mb-1">Inquiry</h5>
-									<small class="badge badge-pill badge-primary mr-2">24</small><span class="text-muted">Ads are Posted</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--Section-->
-	<?php include($baseURL . 'footer.php'); ?>
+	
+
+								
+	<?php
+	 
+	 echo view('mostUsedCar_view.php');
+	 echo view('popularbrands_view.php');
+	 echo view('lestedcar_view.php');
+	 
+	 
+	
+	 echo view('footer.php');
+	 
+	  ?>
 </body>
 
 </html>
