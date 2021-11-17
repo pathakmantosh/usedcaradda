@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
-<?php include($baseURL . 'header.php'); ?>
+<?php echo view('header.php'); ?>
 
 <body>
 	<!--Loader-->
@@ -8,7 +8,7 @@
 		<img src="../assets/images/loader.svg" class="loader-img " alt="">
 	</div>
 
-	<?php include($baseURL . 'topbar.php'); ?>
+	<?php echo view('topbar.php'); ?>
 
     <!--Breadcrumb-->
 		<section>
@@ -42,7 +42,7 @@
 		</section>
 		<!--/section-->
 
-    <?php include($baseURL . 'footer.php'); ?>
+    <?php echo view('footer.php'); ?>
 </body>
 
 </html>
