@@ -13,4 +13,8 @@ class Home extends BaseController
     {
         return view('about_view');
     }
+    public function cardetails()
+    {
+        return view('cardetails_view');
+    }
 }
