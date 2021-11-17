@@ -8,7 +8,7 @@
 							<div class="clearfix text-center">
 								<div class="header-search-logo d-none d-lg-block">
 									<a class="header-logo" href="index.html">
-										<img src="../assets/images/brand/logo.png" class="header-brand-img" alt="dashr logo">
+										<img src="../assets/images/media/logos/logo.png" class="header-brand-img" alt="dashr logo">
 									</a>
 								</div>
 							</div>
@@ -60,6 +60,10 @@
 					<ul class="horizontalMenu-list">
 						<li aria-haspopup="true"><a href="<?php echo base_url(); ?>" class="active">Home</a></li>
 						<li aria-haspopup="true"><a href="<?php echo base_url().'/about'; ?>">About Us </a></li>
+						<li aria-haspopup="true"><a href="<?php echo base_url().'/about'; ?>">USED Cars </a></li>
+						<li aria-haspopup="true"><a href="<?php echo base_url().'/about'; ?>">SELL Cars </a></li>
+						<li aria-haspopup="true"><a href="<?php echo base_url().'/about'; ?>">COMPARE</a></li>
+						<li aria-haspopup="true"><a href="<?php echo base_url().'/about'; ?>"> News</a></li>
 						<li aria-haspopup="true"><a href="contact.html"> Contact Us <span class="horizontalarrow"></span></a></li>
 						<li aria-haspopup="true" class="d-lg-none mt-5 pb-5 mt-lg-0">
 							<span><a class="btn btn-orange" href="ad-posts.html"><i class="fa fa-car text-white mr-1"></i> Sell Your Car</a></span>
