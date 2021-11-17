@@ -27,17 +27,7 @@
 					<div class="col-xl-4 col-lg-4 col-sm-8 col-5">
 						<div class="top-bar-right">
 							<ul class="custom">
-								<li>
-									<a href="#" class="text-dark" data-toggle="dropdown"><span> Language <i class="fa fa-caret-down text-muted"></i></span> </a>
-									<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
-										<a href="#" class="dropdown-item">
-											English
-										</a>
-										<a class="dropdown-item" href="#">
-											Hindi
-										</a>
-									</div>
-								</li>
+								
 								<li>
 									<a href="register.html" class="text-dark"><i class="fa fa-user mr-1"></i> <span>Register</span></a>
 								</li>
