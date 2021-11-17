@@ -21,15 +21,15 @@
 		<!--/BreadCrumb-->
 
 		<!--listing-->
-		<section class="sptb">
-			<div class="container">
+		<section class="sptb ">
+			<div class="container sticky">
 				<div class="row">
 					<div class="col-xl-8 col-lg-8 col-md-12">
 						<!--Classified Description-->
 						<div class="card overflow-hidden">
 							<div class="ribbon ribbon-top-right text-danger"><span class="bg-danger">Offer</span></div>
 							<div class="card-body">
-								<div class="item-det mb-4">
+								<div class="item-det mb-5"><br>
 									<a href="#" class="text-dark"><h3 >Maruti Celerio</h3></a>
 									<div class=" d-flex">
 										<ul class="d-flex mb-0">
@@ -175,41 +175,17 @@
 													<div class="table-responsive">
 													<div class="item">
 						                         
-									         
-									
-									
-								
-									
-								
-							
-                           
-						
-					</div>
+							</div>
 					
 					
 												
 											</div>
 										</div>
-										
-										
-										
-									</div>
+							</div>
 								</div>
 							</div>
-						
-					
-						
-						
-                                    
-                                       
-					
-						 
 							
-								
-										
-						                        
-								                   
-						                             <h3 class="mb-5 mt-6">Car Features</h3>
+				<h3 class="mb-5 mt-6">Car Features</h3>
 
 						                      <div class="tab-pane" id="tab-3">
 											 <div class="row">
@@ -462,13 +438,13 @@
 					</div>
 
 					<!--Right Side Content-->
-					<div class="col-xl-4 col-lg-4 col-md-12">
-						<div class="card">
+					<div class="col-xl-4 col-lg-4 col-md-12 ">
+						<div class="card ">
 							
 
 							
 
-								<div class="profile-pic mb-0">
+								<div class="profile-pic mb-0 " >
 								<h4 class="mb-4 text-left">Maruti Celerio</h4>
 									<div >
 										
@@ -504,13 +480,7 @@
 									<a href="#" class="dribbble-bg"><i class="fa fa-dribbble"></i></a>
 								</div>
 							</div>
-							<div class="card-footer">
-								<div class="text-left">
-									<a href="#" class="btn  btn-info"><i class="fa fa-envelope"></i> Chat</a>
-									<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#contact"><i class="fa fa-user"></i> Contact Me</a>
-									<a href="#" class="btn btn-danger" data-toggle="modal" data-target="#contact"><i class="fa fa-share-alt"></i> Share</a>
-								</div>
-							</div>
+							
 						</div>
 
 						
@@ -633,205 +603,11 @@
 					<!--Right Side Content-->
 					
 
-						<div class="card">
-							<div class="card-header">
-								<h3 class="card-title">Map location</h3>
-							</div>
-							<div class="card-body">
-								<div class="map-header">
-									<div class="map-header-layer" id="map2"></div>
-								</div>
-							</div>
-						</div>
-						<div class="card">
-							<div class="card-header">
-								<h3 class="card-title">Search Ads</h3>
-							</div>
-							<div class="card-body">
-								<div class="form-group">
-									<input type="text" class="form-control" id="search-text" placeholder="What are you looking for?">
-								</div>
-								<div class="form-group search-cars1">
-									<select name="country" id="select-countries" class="form-control custom-select select2-show-search">
-										<option value="1" selected>All Categories</option>
-										<option value="2">Vehicle</option>
-										<option value="3">Vehicles</option>
-										<option value="4">Vroomting</option>
-										<option value="5">Vehicles</option>
-										<option value="6">CrusaderRecusandae</option>
-										<option value="7">Caledonia</option>
-										<option value="8">Chittenden</option>
-										<option value="9">CrusaderRecusandae</option>
-										<option value="10">Vehicle</option>
-										<option value="11">Vehicles</option>
-										<option value="12">Duplex Vehicles</option>
-										<option value="13">Shrinking  Moco</option>
-										<option value="14">Eternity Killington</option>
-										<option value="15">Modren Vehicles</option>
-									</select>
-								</div>
-								<div>
-									<a href="#" class="btn btn-block btn-primary"><i class="fa fa-search"></i> Search</a>
-								</div>
-							</div>
-						</div>
-						<div class="card">
-							<div class="card-header">
-								<div class="card-title">Latest Models</div>
-							</div>
-							<div class="card-body ">
-								<ul class="vertical-scroll">
-									<li class="news-item">
-										<table>
-											<tr>
-												<td><img src="../assets/images/media/1.png" alt="image" class="w-8 border"/></td>
-												<td class="pl-3"><h5 class="mb-1 ">Monastery Cars</h5><a href="#" class="btn-link">View Details</a><span class="float-right font-weight-bold">$17</span></td>
-											</tr>
-										</table>
-									</li>
-									<li class="news-item">
-										<table>
-											<tr>
-												<td><img src="../assets/images/media/2.png" alt="image" class="w-8 border"/></td>
-												<td class="pl-3"><h5 class="mb-1 ">Caledonia Cars</h5><a href="#" class="btn-link">View Details</a><span class="float-right font-weight-bold">$17</span></td>
-											</tr>
-										</table>
-									</li>
-									<li class="news-item">
-										<table>
-											<tr>
-												<td><img src="../assets/images/media/3.png" alt="image" class="w-8 border" /></td>
-												<td class="pl-3"><h5 class="mb-1 ">Monastery Cars</h5><a href="#" class="btn-link">View Details</a><span class="float-right font-weight-bold">$17</span></td>
-											</tr>
-										</table>
-									</li>
-									<li class="news-item">
-										<table>
-											<tr>
-												<td><img src="../assets/images/media/4.png" alt="image" class="w-8 border" /></td>
-												<td class="pl-3"><h5 class="mb-1 ">Caledonia Cars</h5><a href="#" class="btn-link">View Details</a><span class="float-right font-weight-bold">$17</span></td>
-											</tr>
-										</table>
-									</li>
-									<li class="news-item">
-										<table>
-											<tr>
-												<td><img src="../assets/images/media/5.png" alt="image" class="w-8 border" /></td>
-												<td class="pl-3"><h5 class="mb-1 ">Monastery Cars</h5><a href="#" class="btn-link">View Details</a><span class="float-right font-weight-bold">$17</span></td>
-											</tr>
-										</table>
-									</li>
-									<li class="news-item">
-										<table>
-											<tr>
-												<td><img src="../assets/images/media/6.png" alt="image" class="w-8 border" /></td>
-												<td class="pl-3"><h5 class="mb-1 ">Chittenden</h5><a href="#" class="btn-link">View Details</a><span class="float-right font-weight-bold">$17</span></td>
-											</tr>
-										</table>
-									</li>
-									<li class="news-item">
-										<table>
-											<tr>
-												<td><img src="../assets/images/media/7.png" alt="image" class="w-8 border" /></td>
-												<td class="pl-3"><h5 class="mb-1 ">Modren Killington</h5><a href="#" class="btn-link">View Details</a><span class="float-right font-weight-bold">$17</span></td>
-											</tr>
-										</table>
-									</li>
-								</ul>
-							</div>
-						</div>
+						
+						
+						
 
-						<div class="card mb-0">
-							<div class="card-header">
-								<h3 class="card-title">Latest Seller Ads</h3>
-							</div>
-							<div class="card-body">
-								<div class="rated-products">
-									<ul class="vertical-scroll">
-										<li class="item">
-											<div class="media m-0 mt-0 p-5">
-												<img class="mr-4" src="../assets/images/media/toys.png" alt="img">
-												<div class="media-body">
-													<h4 class="mt-2 mb-1">Vehicle</h4>
-													<span class="rated-products-ratings">
-														<i class="fa fa-star text-warning"> </i>
-														<i class="fa fa-star text-warning"> </i>
-														<i class="fa fa-star text-warning"> </i>
-														<i class="fa fa-star text-warning"> </i>
-														<i class="fa fa-star text-warning"> </i>
-													</span>
-													<div class="h5 mb-0 font-weight-semibold mt-1">$17 - $29</div>
-												</div>
-											</div>
-										</li>
-										<li class="item">
-											<div class="media p-5 mt-0">
-												<img class="mr-4" src="../assets/images/media/1.png" alt="img">
-												<div class="media-body">
-													<h4 class="mt-2 mb-1">Shelburne Cars</h4>
-													<span class="rated-products-ratings">
-														<i class="fa fa-star text-warning"> </i>
-														<i class="fa fa-star text-warning"> </i>
-														<i class="fa fa-star text-warning"> </i>
-														<i class="fa fa-star text-warning"> </i>
-														<i class="fa fa-star-o text-warning"> </i>
-													</span>
-													<div class="h5 mb-0 font-weight-semibold mt-1">$22 - $45</div>
-												</div>
-											</div>
-										</li>
-										<li class="item">
-											<div class="media p-5 mt-0">
-												<img class=" mr-4" src="../assets/images/media/4.png" alt="img">
-												<div class="media-body">
-													<h4 class="mt-2 mb-1">Vroomting</h4>
-													<span class="rated-products-ratings">
-														<i class="fa fa-star text-warning"> </i>
-														<i class="fa fa-star text-warning"> </i>
-														<i class="fa fa-star text-warning"> </i>
-														<i class="fa fa-star text-warning"> </i>
-														<i class="fa fa-star-half-o text-warning"> </i>
-													</span>
-													<div class="h5 mb-0 font-weight-semibold mt-1">$35 - $72</div>
-												</div>
-											</div>
-										</li>
-										<li class="item">
-											<div class="media p-5 mt-0">
-												<img class=" mr-4" src="../assets/images/media/6.png" alt="img">
-												<div class="media-body">
-													<h4 class="mt-2 mb-1">Mastery</h4>
-													<span class="rated-products-ratings">
-														<i class="fa fa-star text-warning"> </i>
-														<i class="fa fa-star text-warning"> </i>
-														<i class="fa fa-star text-warning"> </i>
-														<i class="fa fa-star-half-o text-warning"> </i>
-														<i class="fa fa-star-o text-warning"> </i>
-													</span>
-													<div class="h5 mb-0 font-weight-semibold mt-1">$12 - $21</div>
-												</div>
-											</div>
-										</li>
-										<li class="item">
-											<div class="media  mb-0 p-5 mt-0">
-												<img class=" mr-4" src="../assets/images/media/8.png" alt="img">
-												<div class="media-body">
-													<h4 class="mt-2 mb-1">Brattleboro Cars</h4>
-													<span class="rated-products-ratings">
-														<i class="fa fa-star text-warning"> </i>
-														<i class="fa fa-star text-warning"> </i>
-														<i class="fa fa-star text-warning"> </i>
-														<i class="fa fa-star-o text-warning"> </i>
-														<i class="fa fa-star-o text-warning"> </i>
-													</span>
-													<div class="h5 mb-0 font-weight-semibold mt-1">$89 - $97</div>
-												</div>
-											</div>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
+						
 					</div>
 					<!--/Right Side Content-->
 				</div>
@@ -840,98 +616,14 @@
 		<!--/listing-->
 
 		<!-- Newsletter-->
-		<section class="sptb2 bg-white border-top">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-7 col-xl-6 col-md-12">
-						<div class="sub-newsletter">
-							<h3 class="mb-2"><i class="fa fa-paper-plane-o mr-2"></i> Subscribe To Our Newsletter</h3>
-							<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-						</div>
-					</div>
-					<div class="col-lg-5 col-xl-6 col-md-12">
-						<div class="input-group sub-input mt-1">
-							<input type="text" class="form-control input-lg " placeholder="Enter your Email">
-							<div class="input-group-append ">
-								<button type="button" class="btn btn-primary btn-lg br-tr-3  br-br-3">
-									Subscribe
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+		
 		<!--/Newsletter-->
 
 		<!--Section-->
-		<section class="sptb border-top">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="bg-white p-0 border">
-							<div class="card-body">
-								<h6 class="fs-18 mb-4">Do You Want to sell A Car?</h6>
-								<hr class="deep-purple  accent-2 mb-4 mt-0 d-inline-block mx-auto">
-								<p>it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
-								<a href="#" class="btn btn-primary text-white">Sell a Car</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="bg-white p-0 mt-5 mt-md-0 border">
-							<div class="card-body">
-								<h6 class="fs-18 mb-4">Are You Looking For A Car?</h6>
-								<hr class="deep-purple  accent-2 border-success mb-4 mt-0 d-inline-block mx-auto">
-								<p>it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
-								<a href="#" class="btn btn-success text-white">Buy a Car</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--Section-->
+		
 
 		<!--latest Posts-->
-		<section class="sptb2 bg-white border-top">
-			<div class="container">
-				<h6 class="fs-18 mb-4">Latest Posts</h6>
-				<hr class="deep-purple  accent-2 mb-4 mt-0 d-inline-block mx-auto">
-				<div class="row">
-					<div class="col-md-12 col-lg-4">
-						<div class="d-flex mt-0 mb-5 mb-lg-0 border bg-light p-4">
-							<img class="w-8 h-8 mr-4" src="../assets/images/media/6.png" alt="img">
-							<div class="media-body">
-								<h4 class="mt-0 mb-1 fs-16"><a class="text-body" href="#">Buy a CrusaderRecusandae</a></h4>
-								<span class="fs-12 text-muted"><i class="fa fa-calendar"></i> 13th May 2019</span>
-								<div class="h6 mb-0 mt-1 font-weight-normal"><span class="font-weight-semibold">Price:</span> $128 <del>$218</del></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-12 col-lg-4">
-						<div class="d-flex mt-0 mb-5 mb-lg-0 border bg-light p-4">
-							<img class="w-8 h-8 mr-4" src="../assets/images/media/4.png" alt="img">
-							<div class="media-body">
-								<h4 class="mt-0 mb-1 fs-16"><a class="text-body" href="#">Best New Car</a></h4>
-								<span class="fs-12 text-muted"><i class="fa fa-calendar"></i> 20th Jun 2019</span>
-								<div class="h6 mb-0 mt-1 font-weight-normal"><span class="font-weight-semibold">Price:</span> $245 <del>$354</del></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-12 col-lg-4">
-						<div class="d-flex mt-0 mb-0 border bg-light p-4 box-shadow2">
-							<img class="w-8 h-8 mr-4" src="../assets/images/media/2.png" alt="img">
-							<div class="media-body">
-								<h4 class="mt-0 mb-1 fs-16"><a class="text-body" href="#">Fuel Effeciency Car</a></h4>
-								<span class="fs-12 text-muted"><i class="fa fa-calendar"></i> 14th Aug 2019</span>
-								<div class="h6 mb-0 mt-1 font-weight-normal"><span class="font-weight-semibold">Price:</span> $214 <del>$562</del></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+		
 		<!--latest Posts-->
 
 		<!--Footer Section-->
