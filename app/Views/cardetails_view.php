@@ -1,3 +1,6 @@
+
+<!--BreadCrumb-->
+
 <!doctype html>
 <html class="no-js" lang="en">
 <?php echo view('header.php'); ?>
@@ -6,7 +9,9 @@
 				<div class="page-header">
 					<h4 class="page-title">Cars</h4>
 					<ol class="breadcrumb">
+
 					<li class="breadcrumb-item"><a href="<?php echo base_url(); ?>">Home</a></li>
+
 						<li class="breadcrumb-item"><a href="#">Categories</a></li>
 						<li class="breadcrumb-item active" aria-current="page">Cars</li>
 					</ol>
@@ -98,11 +103,13 @@
 										<div id="thumbcarousel" class="carousel slide thumbcarousel" data-interval="false">
 											<div class="carousel-inner">
 												<div class="carousel-item active">
+
 													<div data-target="#carousel" data-slide-to="0" class="thumb"><img src="../assets/images/media/cars/m20.jpg" alt="img"></div>
 													<div data-target="#carousel" data-slide-to="1" class="thumb"><img src="../assets/images/media/cars/m21.jpg" alt="img"></div>
 													<div data-target="#carousel" data-slide-to="2" class="thumb"><img src="../assets/images/media/cars/m22.jpg" alt="img"></div>
 													<div data-target="#carousel" data-slide-to="3" class="thumb"><img src="../assets/images/media/cars/m23.jpg" alt="img"></div>
 													<div data-target="#carousel" data-slide-to="4" class="thumb"><img src="../assets/images/media/cars/m24.jpg" alt="img"></div>
+
 												</div>
 												<div class="carousel-item ">
 													<div data-target="#carousel" data-slide-to="5" class="thumb"><img src="../assets/images/media/cars/m1.jpg" alt="img"></div>
@@ -151,6 +158,7 @@
 											</div>
 										</div>
 									</div>
+
 									
 											<h2 class="card-title mb-3 font-weight-semibold">Overview</h2>
 											<div class="mb-4">
@@ -208,6 +216,7 @@
 												<div class="col-md-6">
 													<div class="table-responsive">
 														<table class="table">
+
 															<tbody>
 																<tr>
 																	<td>Power Steering</td>
@@ -237,6 +246,7 @@
 												<div class="col-md-6">
 													<div class="table-responsive">
 														<table class="table ">
+
 															<tbody>
 
 																<tr>
@@ -261,6 +271,7 @@
 												</div>
 											</div>
 										</div>
+
 										</div>
 										
 <h3 class="mb-5 mt-6">CarDekho Benefits</h3>
@@ -331,14 +342,17 @@
 									<div class="cat-desc">
 										<h5 class="mb-1"><br>Free RC Transfer</h5>
 										
+
 									</div>
 								</div>
 							</div>
 						</div>
+
 					</div>
 					</div>
 					</div>
 					<br>
+
 
 						<!--Comments-->
 						<div class="card">
@@ -451,21 +465,26 @@
 					<div class="col-xl-4 col-lg-4 col-md-12">
 						<div class="card">
 							
+
 							
+
 								<div class="profile-pic mb-0">
 								<h4 class="mb-4 text-left">Maruti Celerio</h4>
 									<div >
 										
+
 										<h6 class="font-weight-normal text-left">VXI 1.2 BS IV</h6><br>
 										<h6 class="font-weight-normal text-left">EMI starts from ₹ 10,732</h6><br>
 										<h6 class="text-bark font-weight-strong left-block text-bold"><b>₹ 5,30,000</h6><b>
-										<a href="personal-blog.html" class="btn btn-primary btn-sm">What's Included?</a></h6><br><br>
+				<a href="personal-blog.html" class="btn btn-primary btn-sm">What's Included?</a></h6><br><br>
 										<a href="personal-blog.html" class="btn btn-primary btn-sm">Book Now @ ₹11000</a></h6>
 										<a href="personal-blog.html" class="btn btn-primary btn-sm">Shedlude Test Drive</a></h6>
 										
 										
 									</div>
+
 									
+
 								</div>
 							</div>
 							<div class="card-body item-user">
@@ -493,6 +512,7 @@
 								</div>
 							</div>
 						</div>
+
 						
 						
 						
@@ -612,6 +632,7 @@
 
 					<!--Right Side Content-->
 					
+
 						<div class="card">
 							<div class="card-header">
 								<h3 class="card-title">Map location</h3>
@@ -912,6 +933,7 @@
 			</div>
 		</section>
 		<!--latest Posts-->
+
 		<!--Footer Section-->
 		<section>
 			<footer class="bg-dark-purple text-white">
@@ -1192,3 +1214,6 @@
 		<script src="../assets/js/custom.js"></script>
 	</body>
 </html>
+
+
+		
