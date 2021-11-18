@@ -24,7 +24,7 @@
 				<div class="carousel-item">
 					<img class="d-block w-100" src="../assets/images/banners/Used-Car-Adda-Slider-2.png" alt="Second slide">
 				</div>
-
+               <br><br>
 				<div class="header-text1 mb-0">
 					<div class="container">
 						<div class="row">
@@ -101,40 +101,13 @@
 	<!--Section-->
 
 	<!-- Popup Login-->
-	<div id="LgoinRegister" class="modal fade">
-		<div class="modal-dialog" role="document" width='350'>
-			<div class="modal-content " rounded-0>
-				<div class="modal-header">
-					<h4 class="modal-title" id="exampleModalLabel"><strong> Login or Register for best UseCarAdda experience</strong></h4>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">×</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<div class="single-page customerpage ">
-						<div class="wrapper wrapper2 box-shadow-0">
-							<form id="login" class="">
-								<div class="text">
-									<input type="text" name="mobile"  placeholder="Enter Mobile Number">
-									<!-- <label>Enter Mobile Number</label> -->
-								</div>
-								</br></br></br></br></br></br></br>
-								<div class="submit">
-									<button type="button" class="btn btn-primary" disabled=disabled>Send OTP <i class="fa fa-long-arrow-right mr-1"></i> </button>
-								</div>
-
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	
 	<!-- End Popup Login-->
 
 
 
 	<?php
+	echo view('model_view.php');
 
 	echo view('mostUsedCar_view.php');
 	echo view('popularbrands_view.php');

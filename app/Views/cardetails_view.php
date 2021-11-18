@@ -159,102 +159,32 @@
 										</div>
 									</div>
 
-									
-											<h2 class="card-title mb-3 font-weight-semibold">Overview</h2>
-											<div class="mb-4">
-											
-							                       Killington odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atcorrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-
-                                                   On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoraliz the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble thena bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.
-						                         </div>
-											
-
-											  
-							   <div class="row">
-												        <div class="col-xl-12 col-md-12">
-													<div class="table-responsive">
-													<div class="item">
-						                         
-							</div>
-					
-					
-												
-											</div>
-										</div>
-							</div>
+									<div class="row">
+					<div class="col-md-12">
+						<div class="panel-group1" id="accordion2">
+							<div class="panel panel-default">
+								<div class="panel-heading1 ">
+									<h4 class="panel-title1">
+										<a class="accordion-toggle collapsed border" data-toggle="collapse" data-parent="#accordion2" href="#car-comapre-1" aria-expanded="false">Overview</a>
+									</h4>
+								</div>
+								<div id="car-comapre-1" class="panel-collapse collapse" role="tabpanel" aria-expanded="false">
+									<div class="panel-body border border-top-0">
+										<p>Killington odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atcorrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
+										<p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoraliz the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble thena bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.</p>
+									</div>
 								</div>
 							</div>
-							
-				<h3 class="mb-5 mt-6">Car Features</h3>
-
-						                      <div class="tab-pane" id="tab-3">
-											 <div class="row">
-												<div class="col-md-6">
-													<div class="table-responsive">
-														<table class="table">
-
-															<tbody>
-																<tr>
-																	<td>Power Steering</td>
-																	<td><i class="icon icon-check text-success"></i></td>
-																</tr>
-																<tr>
-																	<td>Power Windows Front</td>
-																	<td><i class="icon icon-check text-success"></i></td>
-																</tr>
-																<tr>
-																	<td>Air Conditioner</td>
-																	<td><i class="icon icon-check text-success"></i></td>
-																</tr>
-																<tr>
-																	<td>Passenger Airbag</td>
-																	<td><i class="icon icon-close text-danger"></i></td>
-																</tr>
-																<tr>
-																	<td>Fog Lights - Front</td>
-																	<td><i class="icon icon-close text-danger"></i></td>
-																</tr>
-															</tbody>
-														</table>
-													</div>
-												</div>
-												
-												<div class="col-md-6">
-													<div class="table-responsive">
-														<table class="table ">
-
-															<tbody>
-
-																<tr>
-																	<td>Anti Lock Braking System</td>
-																	<td><i class="icon icon-check text-success"></i></td>
-																</tr>
-																<tr>
-																	<td>Driver Airbag</td>
-																	<td><i class="icon icon-check text-success"></i></td>
-																</tr>
-																<tr>
-																	<td>Wheel Covers</td>
-																	<td><i class="icon icon-check text-success"></i></td>
-																</tr>
-																<tr>
-																	<td>Automatic Climate Control</td>
-																	<td><i class="icon icon-close text-danger"></i></td>
-																</tr>
-															</tbody>
-														</table>
-													</div>
-												</div>
-											</div>
-										</div>
-
-										</div>
-										
-<h3 class="mb-5 mt-6">CarDekho Benefits</h3>
-
-<!--Related Posts-->
-
-			<div class="container">
+							<div class="panel panel-default">
+								<div class="panel-heading1">
+									<h4 class="panel-title1">
+										<a class="accordion-toggle collapsed border border-top-0" data-toggle="collapse" data-parent="#accordion2" href="#car-comapre-2" aria-expanded="false">Car Dekho Benefits</a>
+									</h4>
+								</div>
+								<div id="car-comapre-2" class="panel-collapse collapse " role="tabpanel" aria-expanded="false">
+									<div class="panel-body border border-top-0">
+										<div class="table-responsive">
+										<div class="container">
 				<div class="section-title center-block text-left">
 					
 				</div>
@@ -291,6 +221,7 @@
 							</div>
 						</div>
 					</div>
+                     
 					<div class="item">
 						<div class="card mb-0">
 							<div class="card-body">
@@ -323,10 +254,96 @@
 								</div>
 							</div>
 						</div>
+						</div>
+					</div>
+					</div>
+					
+					
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading1">
+									<h4 class="panel-title1">
+										<a class="accordion-toggle collapsed border border-top-0" data-toggle="collapse" data-parent="#accordion2" href="#car-comapre-3" aria-expanded="false">Car Features</a>
+									</h4>
+								</div>
+								<div id="car-comapre-3" class="panel-collapse collapse " role="tabpanel" aria-expanded="false">
+									<div class="panel-body border border-top-0">
+									<div class="tab-pane" id="tab-3">
+											 <div class="row">
+												<div class="col-md-6">
+													<div class="table-responsive">
+														<table class="table">
 
-					</div>
-					</div>
-					</div>
+															<tbody>
+																<tr>
+																	<td>Power Steering</td>
+																	<td><i class="icon icon-check text-success"></i></td>
+																</tr>
+																<tr>
+																	<td>Power Windows Front</td>
+																	<td><i class="icon icon-check text-success"></i></td>
+																</tr>
+																<tr>
+																	<td>Air Conditioner</td>
+																	<td><i class="icon icon-check text-success"></i></td>
+																</tr>
+																<tr>
+																	<td>Passenger Airbag</td>
+																	<td><i class="icon icon-close text-danger"></i></td>
+																</tr>
+																<tr>
+																	<td>Fog Lights - Front</td>
+																	<td><i class="icon icon-close text-danger"></i></td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</div>
+												
+												
+												<div class="col-md-0">
+													<div class="table-responsive">
+														<table class="table ">
+
+															<tbody>
+
+																<tr>
+																	<td>Anti Lock Braking System</td>
+																	<td><i class="icon icon-check text-success"></i></td>
+																</tr>
+																<tr>
+																	<td>Driver Airbag</td>
+																	<td><i class="icon icon-check text-success"></i></td>
+																</tr>
+																<tr>
+																	<td>Wheel Covers</td>
+																	<td><i class="icon icon-check text-success"></i></td>
+																</tr>
+																<tr>
+																	<td>Automatic Climate Control</td>
+																	<td><i class="icon icon-close text-danger"></i></td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+		                </div>
+                    </div>
+                </div>
+
+              </div>
+            </div>
+</div>
+                         
 					<br>
 
 
@@ -381,90 +398,44 @@
 									</div>
 								</div>
 							</div>
-							<div class="card-body p-0">
-								<div class="media mt-0 p-5">
-                                    <div class="d-flex mr-3">
-                                        <a href="#"><img class="media-object brround" alt="64x64" src="../assets/images/users/male/1.jpg"> </a>
-                                    </div>
-                                    <div class="media-body">
-                                        <h5 class="mt-0 mb-1 font-weight-semibold">Joanne Scott
-											<span class="fs-14 ml-0" data-toggle="tooltip" data-placement="top" title="verified"><i class="fa fa-check-circle-o text-success"></i></span>
-											<span class="fs-14 ml-2"> 4.5 <i class="fa fa-star text-yellow"></i></span>
-										</h5>
-										<small class="text-muted"><i class="fa fa-calendar"></i> Dec 21st  <i class=" ml-3 fa fa-clock-o"></i> 13.00  <i class=" ml-3 fa fa-map-marker"></i> Brezil</small>
-                                        <p class="font-13  mb-2 mt-2">
-											Lorem Ipsum available, quis Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et  nostrud exercitation ullamco laboris   commodo consequat.
-                                        </p>
-										<a href="#" class="mr-2"><span class="badge badge-primary">Helpful</span></a>
-										<a href="" class="mr-2" data-toggle="modal" data-target="#Comment"><span >Comment</span></a>
-										<a href="" class="mr-2" data-toggle="modal" data-target="#report"><span >Report</span></a>
-                                        <div class="media mt-5">
-                                            <div class="d-flex mr-3">
-                                                <a href="#"> <img class="media-object brround" alt="64x64" src="../assets/images/users/female/2.jpg"> </a>
-                                            </div>
-											<div class="media-body">
-												<h5 class="mt-0 mb-1 font-weight-semibold">Rose Slater <span class="fs-14 ml-0" data-toggle="tooltip" data-placement="top" title="verified"><i class="fa fa-check-circle-o text-success"></i></span></h5>
-												<small class="text-muted"><i class="fa fa-calendar"></i> Dec 22st  <i class=" ml-3 fa fa-clock-o"></i> 6.00  <i class=" ml-3 fa fa-map-marker"></i> Brezil</small>
-												<p class="font-13  mb-2 mt-2">
-													Lorem Ipsum available, quis nostrud exercitation ullamco laboris   commodo Lorem Ipsum available, but the majority have suffered alteration in some form laboriosam, nisi ut aliquid ex ea commodi consequatur consequat.
-												</p>
-												<a href="" data-toggle="modal" data-target="#Comment"><span class="badge badge-default">Comment</span></a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="media p-5 border-top mt-0">
-									<div class="d-flex mr-3">
-										<a href="#"> <img class="media-object brround" alt="64x64" src="../assets/images/users/male/3.jpg"> </a>
-									</div>
-									<div class="media-body">
-										<h5 class="mt-0 mb-1 font-weight-semibold">Edward
-										<span class="fs-14 ml-0" data-toggle="tooltip" data-placement="top" title="verified"><i class="fa fa-check-circle-o text-success"></i></span>
-										<span class="fs-14 ml-2"> 4 <i class="fa fa-star text-yellow"></i></span>
-										</h5>
-										<small class="text-muted"><i class="fa fa-calendar"></i> Dec 21st  <i class=" ml-3 fa fa-clock-o"></i> 16.35  <i class=" ml-3 fa fa-map-marker"></i> UK</small>
-                                        <p class="font-13  mb-2 mt-2">
-                                           Lorem Ipsum available, quis Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et  nostrud exercitation ullamco laboris   commodo consequat.
-                                        </p>
-										<a href="#" class="mr-2"><span class="badge badge-primary">Helpful</span></a>
-										<a href="" class="mr-2" data-toggle="modal" data-target="#Comment"><span >Comment</span></a>
-										<a href="" class="mr-2" data-toggle="modal" data-target="#report"><span >Report</span></a>
-									</div>
-								</div>
-							</div>
+							
 						</div>
 						<!--/Comments-->
 						
 					</div>
 
 					<!--Right Side Content-->
+					
 					<div class="col-xl-4 col-lg-4 col-md-12 ">
 						<div class="card ">
 							
 
 							
-
-								<div class="profile-pic mb-0 " >
-								<h4 class="mb-4 text-left">Maruti Celerio</h4>
+						
+								<div class="profile-pic mb-0  " >
+								<h4 class="mb-4 text-left ">Maruti Celerio</h4>
 									<div >
 										
 
 										<h6 class="font-weight-normal text-left">VXI 1.2 BS IV</h6><br>
 										<h6 class="font-weight-normal text-left">EMI starts from ₹ 10,732</h6><br>
 										<h6 class="text-bark font-weight-strong left-block text-bold"><b>₹ 5,30,000</h6><b>
-				<a href="personal-blog.html" class="btn btn-primary btn-sm">What's Included?</a></h6><br><br>
+				                 <a href="personal-blog.html" class="btn btn-primary btn-sm">What's Included?</a></h6><br><br>
 										<a href="personal-blog.html" class="btn btn-primary btn-sm">Book Now @ ₹11000</a></h6>
-										<a href="personal-blog.html" class="btn btn-primary btn-sm">Shedlude Test Drive</a></h6>
+										<a href="personal-blog.html" class="btn btn-primary btn-sm">Shedlude Test Drive</a></h6></br>
 										
-										
+                                     	
 									</div>
 
 									
 
 								</div>
 							</div>
+							<div class="card">
+							              <div class="card-header">
 							<div class="card-body item-user">
 								<h4 class="mb-4">Contact Info</h4>
+                               
 								<div>
 									<h6><span class="font-weight-semibold"><i class="fa fa-envelope mr-3 mb-2"></i></span><a href="#" class="text-body"> robert123@gmail.com</a></h6>
 									<h6><span class="font-weight-semibold"><i class="fa fa-phone mr-3  mb-2"></i></span><a href="#" class="text-body"> 0-235-657-24587</a></h6>
@@ -483,7 +454,7 @@
 							
 						</div>
 
-						
+                          </div>
 						
 						
 						
@@ -492,8 +463,7 @@
 						
 					</div>
 					<!--/Right Side Content-->
-				</div>
-			</div>
+				
 		</section>
 		<!--/listing-->
 

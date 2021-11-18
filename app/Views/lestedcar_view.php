@@ -20,7 +20,7 @@
 										<a href="cars.html" class="text-dark"><h4 class="">Porsche Taycan</h4></a>
 									</div>
 									
-									<p class="mb-0">Rs1.50 Cr*</p>
+									<p class="mb-0">Rs 1.50 Cr*</p>
 								</div>
 								
 							</div>
@@ -42,7 +42,7 @@
 										<a href="cars.html" class="text-dark"><h4 class="">Porsche Macan</h4></a>
 									</div>
 									
-									<p class="mb-0">Rs83.21 Lakh</p>
+									<p class="mb-0">Rs 83.21 Lakh</p>
 								</div>
 								
 							</div>
@@ -66,7 +66,7 @@
 										<a href="cars.html" class="text-dark"><h4 class="">Volvo XC90</h4></a>
 									</div>
 									
-									<p class="mb-0">Rs89.90 Lakh - 1.31 Cr*</p>
+									<p class="mb-0">Rs 89.90 Lakh - 1.31 Cr*</p>
 								</div>
 								
 							</div>
@@ -90,7 +90,7 @@
 										<a href="cars.html" class="text-dark"><h4 class="">Maruti Celerio</h4></a>
 									</div>
 									
-									<p class="mb-0">Rs4.99 - 6.94 Lakh*</p>
+									<p class="mb-0">Rs 4.99 - 6.94 Lakh*</p>
 								</div>
 								
 							</div>
