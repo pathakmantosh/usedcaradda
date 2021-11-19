@@ -12,7 +12,7 @@
 
 	<!--Section-->
 	<div>
-		<div class="cover-image sptb-1 bg-background-r" data-image-src="../assets/images/banners/UCA_banner1.webp">
+		<div class="cover-image sptb-1 bg-background-r" data-image-src="../assets/images/banners/Used-Car-Adda-Slider.png">
 			<div class="header-text1 mb-0">
 				<div class="container">
 					<div class="row">
@@ -79,20 +79,24 @@
 	</div>
 	<!--Section-->
 
-	
+	<!-- Popup Login-->
 
-								
+	<!-- End Popup Login-->
+
+
+
 	<?php
-	 
-	 echo view('mostUsedCar_view.php');
-	 echo view('popularbrands_view.php');
-	 echo view('lestedcar_view.php');
-	 
-	 
-	
-	 echo view('footer.php');
-	 
-	  ?>
+	echo view('model_view.php');
+
+	echo view('mostUsedCar_view.php');
+	echo view('popularbrands_view.php');
+	echo view('lestedcar_view.php');
+
+
+
+	echo view('footer.php');
+
+	?>
 </body>
 
 </html>

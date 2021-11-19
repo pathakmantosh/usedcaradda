@@ -1,5 +1,6 @@
 <!--Section-->
 
+
 			<div class="container">
 				<div class="section-title center-block text-left">
 					<h2>Popular Brands</h2>
