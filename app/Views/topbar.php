@@ -15,8 +15,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-5 col-lg-5 col-sm-5 col-5 d-lg-block">
-						<div class="header-inputs mb-lg-0">
+					<div class="col-xl-6 col-lg-6 col-sm-6 col-6 d-lg-block">
+						<div class="top-bar-center header-inputs mb-lg-0">
 							<div class="input-group">
 								<input type="text" class="form-control br-tl-0 br-bl-0" placeholder="Search Cars & Brands">
 								<div class="input-group-append ">
@@ -25,7 +25,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-4 col-lg-4 col-sm-4 col-4">
+					<div class="col-xl-3 col-lg-3 col-sm-3 col-3">
 						<div class="top-bar-right">
 							<ul class="custom">
 								
