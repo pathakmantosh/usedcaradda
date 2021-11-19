@@ -86,7 +86,7 @@
 
 
 	<?php
-	echo view('model_view.php');
+
 
 	echo view('mostUsedCar_view.php');
 	echo view('popularbrands_view.php');
@@ -95,6 +95,7 @@
 
 
 	echo view('footer.php');
+	echo view('model_view.php');
 
 	?>
 </body>
