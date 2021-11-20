@@ -33,8 +33,9 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->add('/about', 'Home::about');
-$routes->add('/cardetails', 'Home::cardetails');
-$routes->add('/usedcar', 'Home::usedcar');
+$routes->add("/cardetails/(:any)/(:any)", "Home::cardetails/$1/$2");
+// $routes->get("my-route/(:num)", "Home::myRoute/$1");
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

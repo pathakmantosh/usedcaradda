@@ -3,16 +3,13 @@
 <?php echo view('header.php'); ?>
 
 <body>
-	<!--Loader-->
-	<div id="global-loader">
-		<img src="../assets/images/loader.svg" class="loader-img " alt="">
-	</div>
+	
 
 	<?php echo view('topbar.php'); ?>
 
     <!--Breadcrumb-->
 		<section>
-			<div class="bannerimg cover-image bg-background3 sptb-2" data-image-src="../assets/images/banners/banner2.jpg">
+			<div class="bannerimg cover-image bg-background3 sptb-2" data-image-src="<?= $baseURL; ?>/assets/images/banners/banner2.jpg">
 				<div class="header-text mb-0">
 					<div class="container">
 						<div class="text-center text-white ">

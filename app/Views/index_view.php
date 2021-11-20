@@ -3,16 +3,12 @@
 <?php echo view('header.php'); ?>
 
 <body>
-	<!--Loader-->
-	<div id="global-loader">
-		<img src="../assets/images/loader.svg" class="loader-img " alt="">
-	</div>
 
 	<?php echo view('topbar.php'); ?>
 
 	<!--Section-->
 	<div>
-		<div class="cover-image sptb-1 bg-background-r" data-image-src="../assets/images/banners/Used-Car-Adda-Slider.png">
+		<div class="cover-image sptb-1 bg-background-r" data-image-src="<?= $baseURL; ?>/assets/images/banners/Used-Car-Adda-Slider.png">
 			<div class="header-text1 mb-0">
 				<div class="container">
 					<div class="row">
@@ -86,7 +82,7 @@
 
 
 	<?php
-	echo view('model_view.php');
+
 
 	echo view('mostUsedCar_view.php');
 	echo view('popularbrands_view.php');
@@ -95,6 +91,7 @@
 
 
 	echo view('footer.php');
+	echo view('model_view.php');
 
 	?>
 </body>
