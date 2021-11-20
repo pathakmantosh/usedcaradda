@@ -18,29 +18,24 @@
 	<title>Car Listing,Dealer,Rental Auto Classifieds Bootstrap Modern Responsive Clean HTML Template</title>
 
 	<!-- Bootstrap Css -->
-	<link href="../assets/plugins/bootstrap-4.3.1/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="<?= $baseURL; ?>/assets/plugins/bootstrap-4.3.1/css/bootstrap.min.css" rel="stylesheet" />
 
 	<!-- Dashboard Css -->
-	<link href="../assets/css/style.css" rel="stylesheet" />
+	<link href="<?= $baseURL; ?>/assets/css/style.css" rel="stylesheet" />
 
 	<!-- Font-awesome  Css -->
-	<link href="../assets/css/icons.css" rel="stylesheet" />
+	<link href="<?= $baseURL; ?>/assets/css/icons.css" rel="stylesheet" />
 
 	<!--Select2 Plugin -->
-	<link href="../assets/plugins/select2/select2.min.css" rel="stylesheet" />
+	<link href="<?= $baseURL; ?>/assets/plugins/select2/select2.min.css" rel="stylesheet" />
 
 	<!-- Owl Theme css-->
-	<link href="../assets/plugins/owl-carousel/owl.carousel.css" rel="stylesheet" />
+	<link href="<?= $baseURL; ?>/assets/plugins/owl-carousel/owl.carousel.css" rel="stylesheet" />
 
 	<!-- Custom scroll bar css-->
-	<link href="../assets/plugins/scroll-bar/jquery.mCustomScrollbar.css" rel="stylesheet" />
+	<link href="<?= $baseURL; ?>/assets/plugins/scroll-bar/jquery.mCustomScrollbar.css" rel="stylesheet" />
 
 	<!-- Color-Skins -->
-	<link id="theme" rel="stylesheet" type="text/css" media="all" href="../assets/color-skins/color13.css" />
-	<style type="text/css">
-		
-		
-	</style>
+	<link id="theme" rel="stylesheet" type="text/css" media="all" href="<?= $baseURL; ?>/assets/color-skins/color13.css" />
+	<?php echo view('prelinestyle_view.php'); ?>
 </head>
-<?php echo view('prelinestyle_view.php');?>
-

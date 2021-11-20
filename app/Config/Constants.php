@@ -93,5 +93,34 @@ $protocole = 'http://';
 $host = $_SERVER['HTTP_HOST'] . '/';
 $project = explode('/', $_SERVER['REQUEST_URI']);
 $baseurl = $protocole . $host . $project[1];
-$myappBaseUrl = $baseurl.'/';
+$myappBaseUrl = $baseurl;
 defined('BASESEURL') || define('BASESEURL',$myappBaseUrl);
+
+
+/* * ================================================================
+ *  PATHs OF BASIC DIRECTORIES
+ * ================================================================== */
+define("DIR_CONFIG", __DIR__ . DIRECTORY_SEPARATOR);
+define("DIR_ROOT", dirname(DIR_CONFIG) . DIRECTORY_SEPARATOR);
+define("DIR_BASE", dirname(DIR_ROOT) . DIRECTORY_SEPARATOR);
+
+//if "myfile.php" is included in "PARENTFILE.php" , and you visit  "PARENTFILE.PHP?abc":
+//__FILE__                   //🡺 /home/user/public_html/subFolder/myfile.php
+//__DIR__                    //🡺 /home/user/public_html/subFolder              //same: dirname(__FILE__)    
+
+/* * ================================================================
+*            self-defined SERVER variables 
+//=================================================== */
+define('DOCUMENT_ROOT',$_SERVER["DOCUMENT_ROOT"]);  //🡺 /home/user/public_html
+define('SERVER_ADDR',$_SERVER["SERVER_ADDR"]);    //🡺 143.34.112.23
+define('SERVER_PORT',$_SERVER["SERVER_PORT"]);    //🡺 80(or 443 etc..)
+define('REQUEST_SCHEME',$_SERVER["REQUEST_SCHEME"]); //🡺 https        //similar: $_SERVER["SERVER_PROTOCOL"] 
+define('HTTP_HOST',$_SERVER['HTTP_HOST']);      //🡺         example.com (or with WWW)             //similar: $_SERVER["SERVER_NAME"]
+define('REQUEST_URI',$_SERVER["REQUEST_URI"]);    //🡺                       /subFolder/myfile.php?var=blabla
+define('QUERY_STRING',$_SERVER["QUERY_STRING"]);   //🡺                                             var=blabla
+define('SCRIPT_FILENAME',$_SERVER["SCRIPT_FILENAME"]);  //🡺 /home/user/public_html/parentfile.php
+define('PHP_SELF',$_SERVER["PHP_SELF"]);       //🡺                       /parentfile.php
+parse_url(REQUEST_URI, PHP_URL_PATH); //🡺  /subFolder/myfile.php 
+// define('DOMAIN',$hostBrk[1]);    //🡺  http://usedcardeko.com/
+
+// ==================================================================//

@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = BASESEURL;
+    public $baseURL = "http://usedcardeko.com/";
 
     /**
      * --------------------------------------------------------------------------
