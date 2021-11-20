@@ -35,7 +35,7 @@
 								</div>
 								
 							</div>
-							<a class="btn btn-primary btn-lg " href="<?php echo base_url().'\cardetails'; ?>">view Diwali Offers</a>
+							<a class="btn btn-primary btn-lg " href="<?php echo base_url().'\cardetails'; ?>">view Details</a>
 						</div>
 					</div>
 					<div class="item">
@@ -63,7 +63,7 @@
 								</div>
 								
 							</div>
-							<a class="btn btn-primary btn-lg " href="#">view Diwali Offers</a>
+							<a class="btn btn-primary btn-lg " href="#">view Details</a>
 						</div>
 					</div>
 					
