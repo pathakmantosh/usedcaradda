@@ -1,3 +1,4 @@
+
                 <div id="LgoinRegister" class="modal fade">
                 	<div class="modal-dialog" role="document" width='350'>
                 		<div class="modal-content " rounded-0>
