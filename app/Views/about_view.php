@@ -9,7 +9,7 @@
 
     <!--Breadcrumb-->
 		<section>
-			<div class="bannerimg cover-image bg-background3 sptb-2" data-image-src="<?= $baseURL; ?>/assets/images/banners/banner2.jpg">
+			<div class="bannerimg cover-image bg-background3 sptb-2" data-image-src="<?php echo base_url(); ?>/assets/images/banners/banner2.jpg">
 				<div class="header-text mb-0">
 					<div class="container">
 						<div class="text-center text-white ">

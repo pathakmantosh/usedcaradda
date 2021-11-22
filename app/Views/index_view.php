@@ -8,7 +8,7 @@
 
 	<!--Section-->
 	<div>
-		<div class="cover-image sptb-1 bg-background-r" data-image-src="<?= $baseURL; ?>/assets/images/banners/Used-Car-Adda-Slider.png">
+		<div class="cover-image sptb-1 bg-background-r" data-image-src="<?php echo base_url(); ?>/assets/images/banners/Used-Car-Adda-Slider.png">
 			<div class="header-text1 mb-0">
 				<div class="container">
 					<div class="row">

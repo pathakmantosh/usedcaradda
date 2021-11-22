@@ -1,6 +1,6 @@
 		<!--Loader-->
 		<div id="global-loader">
-			<img src="<?= $baseURL; ?>/assets/images/loader.svg" class="loader-img " alt="">
+			<img src="<?php echo base_url(); ?>/assets/images/loader.svg" class="loader-img " alt="">
 		</div>
 		<!--Topbar-->
 
@@ -13,7 +13,7 @@
 								<div class="clearfix text-center">
 									<div class="header-search-logo d-lg-block">
 										<a class="header-logo" href="index.html">
-											<img src="<?= $baseURL; ?>/assets/images/media/logos/logo.png" class="header-brand-img" alt="dashr logo">
+											<img src="<?php echo base_url(); ?>/assets/images/media/logos/logo.png" class="header-brand-img" alt="dashr logo">
 										</a>
 									</div>
 								</div>
@@ -50,7 +50,7 @@
 			<div class="horizontal-header clearfix ">
 				<div class="container">
 					<a id="horizontal-navtoggle" class="animated-arrow"><span></span></a>
-					<!-- <span class="smllogo"><img src="<?= $baseURL; ?>/assets/images/media/logos/logo.png" class="header-brand-img" alt="dashr logo"></span> -->
+					<!-- <span class="smllogo"><img src="<?php echo base_url(); ?>/assets/images/media/logos/logo.png" class="header-brand-img" alt="dashr logo"></span> -->
 					<a href="tel:245-6325-3256" class="callusbtn"><i class="fa fa-phone" aria-hidden="true"></i></a>
 				</div>
 			</div>
