@@ -12,7 +12,7 @@
 							<div class="power-ribbon power-ribbon-top-left text-warning"><span class="bg-warning"><i class="fa fa-bolt"></i></span></div>
 							<div class="item-card2-img">
 								<a class="link" href="<?php echo base_url().'\cardetails'; ?>"></a>	
-								<img src="../assets/images/media/cars/h11.jpg" alt="img" class="cover-image">
+								<img src="<?php echo base_url(); ?>/assets/images/media/cars/h11.jpg" alt="img" class="cover-image">
 								<div class="item-tag-overlaytext">
 									
 								</div>
@@ -43,7 +43,7 @@
 							<div class="power-ribbon power-ribbon-top-left text-warning"><span class="bg-warning"><i class="fa fa-bolt"></i></span></div>
 							<div class="item-card2-img">
 								<a class="link" href="cardetails_view.php"></a>
-								<img src="../assets/images/media/cars/a1.jpg" alt="img" class="cover-image">
+								<img src="<?php echo base_url(); ?>/assets/images/media/cars/a1.jpg" alt="img" class="cover-image">
 								<div class="item-tag-overlaytext">
 									
 								</div>

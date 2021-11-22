@@ -11,7 +11,7 @@
 						<div class="card mb-0">
 							<div class="item-card7-imgs">
 								<a class="link" href="cars.html"></a>
-								<img src="../assets/images/media/others/a1.jpg" alt="img" class="cover-image">
+								<img src="<?php echo base_url(); ?>/assets/images/media/others/a1.jpg" alt="img" class="cover-image">
 								
 							</div>
 							<div class="card-body">
@@ -32,7 +32,7 @@
 							
 							<div class="item-card7-imgs">
 								<a class="link" href="cars.html"></a>
-								<img src="../assets/images/media/others/a2.jpg" alt="img" class="cover-image">
+								<img src="<?php echo base_url(); ?>/assets/images/media/others/a2.jpg" alt="img" class="cover-image">
 								
 								
 							</div>
@@ -54,7 +54,7 @@
 							
 							<div class="item-card7-imgs">
 								<a class="link" href="cars.html"></a>
-								<img src="../assets/images/media/others/a3.jpg" alt="img" class="cover-image">
+								<img src="<?php echo base_url(); ?>/assets/images/media/others/a3.jpg" alt="img" class="cover-image">
 								<div class="item-card7-overlaytext">
 									
 								</div>
@@ -78,7 +78,7 @@
 							
 							<div class="item-card7-imgs">
 								<a class="link" href="cars.html"></a>
-								<img src="../assets/images/media/others/a4.jpg" alt="img" class="cover-image">
+								<img src="<?php echo base_url(); ?>/assets/images/media/others/a4.jpg" alt="img" class="cover-image">
 								<div class="item-card7-overlaytext">
 									
 								</div>

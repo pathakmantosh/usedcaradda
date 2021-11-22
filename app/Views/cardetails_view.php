@@ -66,26 +66,26 @@
 								<div id="carousel" class="carousel slide" data-ride="carousel">
 									<div class="arrow-ribbon2 bg-primary">₹ 5,00,000</div>
 									<div class="carousel-inner">
-										<div class="carousel-item active"> <img src="<?= $baseURL; ?>/assets/images/media/cars/h11.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?= $baseURL; ?>/assets/images/media/cars/m1.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?= $baseURL; ?>/assets/images/media/cars/m2.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?= $baseURL; ?>/assets/images/media/cars/m3.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?= $baseURL; ?>/assets/images/media/cars/m4.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?= $baseURL; ?>/assets/images/media/cars/m5.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?= $baseURL; ?>/assets/images/media/cars/m6.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?= $baseURL; ?>/assets/images/media/cars/m7.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?= $baseURL; ?>/assets/images/media/cars/m8.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?= $baseURL; ?>/assets/images/media/cars/m9.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?= $baseURL; ?>/assets/images/media/cars/m10.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?= $baseURL; ?>/assets/images/media/cars/m11.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?= $baseURL; ?>/assets/images/media/cars/m12.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?= $baseURL; ?>/assets/images/media/cars/m13.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?= $baseURL; ?>/assets/images/media/cars/m14.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?= $baseURL; ?>/assets/images/media/cars/m15.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?= $baseURL; ?>/assets/images/media/cars/m16.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?= $baseURL; ?>/assets/images/media/cars/m17.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?= $baseURL; ?>/assets/images/media/cars/m18.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?= $baseURL; ?>/assets/images/media/cars/m19.jpg" alt="img"> </div>
+										<div class="carousel-item active"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/h11.jpg" alt="img"> </div>
+										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m1.jpg" alt="img"> </div>
+										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m2.jpg" alt="img"> </div>
+										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m3.jpg" alt="img"> </div>
+										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m4.jpg" alt="img"> </div>
+										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m5.jpg" alt="img"> </div>
+										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m6.jpg" alt="img"> </div>
+										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m7.jpg" alt="img"> </div>
+										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m8.jpg" alt="img"> </div>
+										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m9.jpg" alt="img"> </div>
+										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m10.jpg" alt="img"> </div>
+										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m11.jpg" alt="img"> </div>
+										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m12.jpg" alt="img"> </div>
+										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m13.jpg" alt="img"> </div>
+										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m14.jpg" alt="img"> </div>
+										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m15.jpg" alt="img"> </div>
+										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m16.jpg" alt="img"> </div>
+										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m17.jpg" alt="img"> </div>
+										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m18.jpg" alt="img"> </div>
+										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m19.jpg" alt="img"> </div>
 									</div>
 									<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
 										<i class="fa fa-angle-left" aria-hidden="true"></i>
@@ -99,33 +99,33 @@
 										<div class="carousel-inner">
 											<div class="carousel-item active">
 
-												<div data-target="#carousel" data-slide-to="0" class="thumb"><img src="<?= $baseURL; ?>/assets/images/media/cars/m20.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="1" class="thumb"><img src="<?= $baseURL; ?>/assets/images/media/cars/m21.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="2" class="thumb"><img src="<?= $baseURL; ?>/assets/images/media/cars/m22.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="3" class="thumb"><img src="<?= $baseURL; ?>/assets/images/media/cars/m23.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="4" class="thumb"><img src="<?= $baseURL; ?>/assets/images/media/cars/m24.jpg" alt="img"></div>
+												<div data-target="#carousel" data-slide-to="0" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m20.jpg" alt="img"></div>
+												<div data-target="#carousel" data-slide-to="1" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m21.jpg" alt="img"></div>
+												<div data-target="#carousel" data-slide-to="2" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m22.jpg" alt="img"></div>
+												<div data-target="#carousel" data-slide-to="3" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m23.jpg" alt="img"></div>
+												<div data-target="#carousel" data-slide-to="4" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m24.jpg" alt="img"></div>
 
 											</div>
 											<div class="carousel-item ">
-												<div data-target="#carousel" data-slide-to="5" class="thumb"><img src="<?= $baseURL; ?>/assets/images/media/cars/m1.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="6" class="thumb"><img src="<?= $baseURL; ?>/assets/images/media/cars/m2.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="7" class="thumb"><img src="<?= $baseURL; ?>/assets/images/media/cars/m3.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="8" class="thumb"><img src="<?= $baseURL; ?>/assets/images/media/cars/m4.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="9" class="thumb"><img src="<?= $baseURL; ?>/assets/images/media/cars/m5.jpg" alt="img"></div>
+												<div data-target="#carousel" data-slide-to="5" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m1.jpg" alt="img"></div>
+												<div data-target="#carousel" data-slide-to="6" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m2.jpg" alt="img"></div>
+												<div data-target="#carousel" data-slide-to="7" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m3.jpg" alt="img"></div>
+												<div data-target="#carousel" data-slide-to="8" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m4.jpg" alt="img"></div>
+												<div data-target="#carousel" data-slide-to="9" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m5.jpg" alt="img"></div>
 											</div>
 											<div class="carousel-item ">
-												<div data-target="#carousel" data-slide-to="10" class="thumb"><img src="<?= $baseURL; ?>/assets/images/media/cars/m6.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="11" class="thumb"><img src="<?= $baseURL; ?>/assets/images/media/cars/m7.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="12" class="thumb"><img src="<?= $baseURL; ?>/assets/images/media/cars/m8.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="13" class="thumb"><img src="<?= $baseURL; ?>/assets/images/media/cars/m9.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="14" class="thumb"><img src="<?= $baseURL; ?>/assets/images/media/cars/m10.jpg" alt="img"></div>
+												<div data-target="#carousel" data-slide-to="10" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m6.jpg" alt="img"></div>
+												<div data-target="#carousel" data-slide-to="11" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m7.jpg" alt="img"></div>
+												<div data-target="#carousel" data-slide-to="12" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m8.jpg" alt="img"></div>
+												<div data-target="#carousel" data-slide-to="13" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m9.jpg" alt="img"></div>
+												<div data-target="#carousel" data-slide-to="14" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m10.jpg" alt="img"></div>
 											</div>
 											<div class="carousel-item ">
-												<div data-target="#carousel" data-slide-to="15" class="thumb"><img src="<?= $baseURL; ?>/assets/images/media/cars/m11.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="16" class="thumb"><img src="<?= $baseURL; ?>/assets/images/media/cars/m12.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="17" class="thumb"><img src="<?= $baseURL; ?>/assets/images/media/cars/m13.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="18" class="thumb"><img src="<?= $baseURL; ?>/assets/images/media/cars/m14.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="19" class="thumb"><img src="<?= $baseURL; ?>/assets/images/media/cars/m15.jpg" alt="img"></div>
+												<div data-target="#carousel" data-slide-to="15" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m11.jpg" alt="img"></div>
+												<div data-target="#carousel" data-slide-to="16" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m12.jpg" alt="img"></div>
+												<div data-target="#carousel" data-slide-to="17" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m13.jpg" alt="img"></div>
+												<div data-target="#carousel" data-slide-to="18" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m14.jpg" alt="img"></div>
+												<div data-target="#carousel" data-slide-to="19" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m15.jpg" alt="img"></div>
 											</div>
 
 										</div>
@@ -489,7 +489,7 @@
 			<div class="row">
 				<div class="col-md-12 col-lg-4">
 					<div class="d-flex mt-0 mb-5 mb-lg-0 border bg-light p-4">
-						<img class="w-8 h-8 mr-4" src="<?= $baseURL; ?>/assets/images/media/6.png" alt="img">
+						<img class="w-8 h-8 mr-4" src="<?php echo base_url(); ?>/assets/images/media/6.png" alt="img">
 						<div class="media-body">
 							<h4 class="mt-0 mb-1 fs-16"><a class="text-body" href="#">Buy a CrusaderRecusandae</a></h4>
 							<span class="fs-12 text-muted"><i class="fa fa-calendar"></i> 13th May 2019</span>
@@ -499,7 +499,7 @@
 				</div>
 				<div class="col-md-12 col-lg-4">
 					<div class="d-flex mt-0 mb-5 mb-lg-0 border bg-light p-4">
-						<img class="w-8 h-8 mr-4" src="<?= $baseURL; ?>/assets/images/media/4.png" alt="img">
+						<img class="w-8 h-8 mr-4" src="<?php echo base_url(); ?>/assets/images/media/4.png" alt="img">
 						<div class="media-body">
 							<h4 class="mt-0 mb-1 fs-16"><a class="text-body" href="#">Best New Car</a></h4>
 							<span class="fs-12 text-muted"><i class="fa fa-calendar"></i> 20th Jun 2019</span>
@@ -509,7 +509,7 @@
 				</div>
 				<div class="col-md-12 col-lg-4">
 					<div class="d-flex mt-0 mb-0 border bg-light p-4 box-shadow2">
-						<img class="w-8 h-8 mr-4" src="<?= $baseURL; ?>/assets/images/media/2.png" alt="img">
+						<img class="w-8 h-8 mr-4" src="<?php echo base_url(); ?>/assets/images/media/2.png" alt="img">
 						<div class="media-body">
 							<h4 class="mt-0 mb-1 fs-16"><a class="text-body" href="#">Fuel Effeciency Car</a></h4>
 							<span class="fs-12 text-muted"><i class="fa fa-calendar"></i> 14th Aug 2019</span>

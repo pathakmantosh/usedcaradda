@@ -18,24 +18,24 @@
 	<title>Car Listing,Dealer,Rental Auto Classifieds Bootstrap Modern Responsive Clean HTML Template</title>
 
 	<!-- Bootstrap Css -->
-	<link href="<?= $baseURL; ?>/assets/plugins/bootstrap-4.3.1/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="<?php echo base_url(); ?>/assets/plugins/bootstrap-4.3.1/css/bootstrap.min.css" rel="stylesheet" />
 
 	<!-- Dashboard Css -->
-	<link href="<?= $baseURL; ?>/assets/css/style.css" rel="stylesheet" />
+	<link href="<?php echo base_url(); ?>/assets/css/style.css" rel="stylesheet" />
 
 	<!-- Font-awesome  Css -->
-	<link href="<?= $baseURL; ?>/assets/css/icons.css" rel="stylesheet" />
+	<link href="<?php echo base_url(); ?>/assets/css/icons.css" rel="stylesheet" />
 
 	<!--Select2 Plugin -->
-	<link href="<?= $baseURL; ?>/assets/plugins/select2/select2.min.css" rel="stylesheet" />
+	<link href="<?php echo base_url(); ?>/assets/plugins/select2/select2.min.css" rel="stylesheet" />
 
 	<!-- Owl Theme css-->
-	<link href="<?= $baseURL; ?>/assets/plugins/owl-carousel/owl.carousel.css" rel="stylesheet" />
+	<link href="<?php echo base_url(); ?>/assets/plugins/owl-carousel/owl.carousel.css" rel="stylesheet" />
 
 	<!-- Custom scroll bar css-->
-	<link href="<?= $baseURL; ?>/assets/plugins/scroll-bar/jquery.mCustomScrollbar.css" rel="stylesheet" />
+	<link href="<?php echo base_url(); ?>/assets/plugins/scroll-bar/jquery.mCustomScrollbar.css" rel="stylesheet" />
 
 	<!-- Color-Skins -->
-	<link id="theme" rel="stylesheet" type="text/css" media="all" href="<?= $baseURL; ?>/assets/color-skins/color13.css" />
+	<link id="theme" rel="stylesheet" type="text/css" media="all" href="<?php echo base_url(); ?>/assets/color-skins/color13.css" />
 	<?php echo view('prelinestyle_view.php'); ?>
 </head>
