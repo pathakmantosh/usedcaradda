@@ -107,60 +107,63 @@
 		<a href="#top" id="back-to-top" ><i class="fa fa-rocket"></i></a>
 
 		<!-- JQuery js-->
-		<script src="<?= $baseURL; ?>/assets/js/jquery-3.2.1.min.js"></script>
+		<script src="<?php echo base_url(); ?>/assets/js/jquery-3.2.1.min.js"></script>
 
 		<!-- Bootstrap js -->
-		<script src="<?= $baseURL; ?>/assets/plugins/bootstrap-4.3.1/js/popper.min.js"></script>
-		<script src="<?= $baseURL; ?>/assets/plugins/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+		<script src="<?php echo base_url(); ?>/assets/plugins/bootstrap-4.3.1/js/popper.min.js"></script>
+		<script src="<?php echo base_url(); ?>/assets/plugins/bootstrap-4.3.1/js/bootstrap.min.js"></script>
 
 		<!--JQueryVehiclerkline Js-->
-		<script src="<?= $baseURL; ?>/assets/js/jquery.sparkline.min.js"></script>
+		<script src="<?php echo base_url(); ?>/assets/js/jquery.sparkline.min.js"></script>
 
 		<!-- Circle Progress Js-->
-		<script src="<?= $baseURL; ?>/assets/js/circle-progress.min.js"></script>
+		<script src="<?php echo base_url(); ?>/assets/js/circle-progress.min.js"></script>
 
 		<!-- Star Rating Js-->
-		<script src="<?= $baseURL; ?>/assets/plugins/rating/jquery.rating-stars.js"></script>
+		<script src="<?php echo base_url(); ?>/assets/plugins/rating/jquery.rating-stars.js"></script>
 
 		<!--Counters -->
-		<script src="<?= $baseURL; ?>/assets/plugins/counters/counterup.min.js"></script>
-		<script src="<?= $baseURL; ?>/assets/plugins/counters/waypoints.min.js"></script>
-		<script src="<?= $baseURL; ?>/assets/plugins/counters/numeric-counter.js"></script>
+		<script src="<?php echo base_url(); ?>/assets/plugins/counters/counterup.min.js"></script>
+		<script src="<?php echo base_url(); ?>/assets/plugins/counters/waypoints.min.js"></script>
+		<script src="<?php echo base_url(); ?>/assets/plugins/counters/numeric-counter.js"></script>
 
 		<!--Owl Carousel js -->
-		<script src="<?= $baseURL; ?>/assets/plugins/owl-carousel/owl.carousel.js"></script>
+		<script src="<?php echo base_url(); ?>/assets/plugins/owl-carousel/owl.carousel.js"></script>
 
 		<!--Horizontal Menu-->
-		<script src="<?= $baseURL; ?>/assets/plugins/horizontal-menu/horizontal.js"></script>
+		<script src="<?php echo base_url(); ?>/assets/plugins/horizontal-menu/horizontal.js"></script>
 
 		<!--JQuery TouchSwipe js-->
-		<script src="<?= $baseURL; ?>/assets/js/jquery.touchSwipe.min.js"></script>
+		<script src="<?php echo base_url(); ?>/assets/js/jquery.touchSwipe.min.js"></script>
 
 		<!--Select2 js -->
-		<script src="<?= $baseURL; ?>/assets/plugins/select2/select2.full.min.js"></script>
-		<script src="<?= $baseURL; ?>/assets/js/select2.js"></script>
+		<script src="<?php echo base_url(); ?>/assets/plugins/select2/select2.full.min.js"></script>
+		<script src="<?php echo base_url(); ?>/assets/js/select2.js"></script>
 
 		<!-- Sticky Js-->
-		<script src="<?= $baseURL; ?>/assets/js/sticky.js"></script>
+		<script src="<?php echo base_url(); ?>/assets/js/sticky.js"></script>
 
 		<!-- Cookie js -->
-		<script src="<?= $baseURL; ?>/assets/plugins/cookie/jquery.ihavecookies.js"></script>
-		<script src="<?= $baseURL; ?>/assets/plugins/cookie/cookie.js"></script>
+		<script src="<?php echo base_url(); ?>/assets/plugins/cookie/jquery.ihavecookies.js"></script>
+		<script src="<?php echo base_url(); ?>/assets/plugins/cookie/cookie.js"></script>
 
 		<!--Showmore Js-->
-		<script src="<?= $baseURL; ?>/assets/js/jquery.showmore.js"></script>
-		<script src="<?= $baseURL; ?>/assets/js/showmore.js"></script>
+		<script src="<?php echo base_url(); ?>/assets/js/jquery.showmore.js"></script>
+		<script src="<?php echo base_url(); ?>/assets/js/showmore.js"></script>
 
         <!-- Custom scroll bar Js-->
-		<script src="<?= $baseURL; ?>/assets/plugins/scroll-bar/jquery.mCustomScrollbar.js"></script>
+		<script src="<?php echo base_url(); ?>/assets/plugins/scroll-bar/jquery.mCustomScrollbar.js"></script>
 
 		<!-- Swipe Js-->
-		<script src="<?= $baseURL; ?>/assets/js/swipe.js"></script>
+		<script src="<?php echo base_url(); ?>/assets/js/swipe.js"></script>
 
 
 
 		<!-- Custom Js-->
-		<script src="<?= $baseURL; ?>/assets/js/custom.js"></script>
+		<script src="<?php echo base_url(); ?>/assets/js/custom.js"></script>
 
 		<!-- Owl Carousel Js-->
-		<script src="<?= $baseURL; ?>/assets/js/owl-carousel.js"></script>
+		<script src="<?php echo base_url(); ?>/assets/js/owl-carousel.js"></script>
+
+		<!-- Sticky Sidebar Js-->
+		<script type="module" src="<?php echo base_url(); ?>/assets/js/sticky-sidebar.js"></script>
