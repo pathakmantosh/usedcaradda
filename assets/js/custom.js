@@ -206,7 +206,7 @@ $(document).ready(function () {
 		+ '			<div class="header-search-logo d-lg-block">'
 		+ '				<!-- <a id="horizontal-navtoggle" class="animated-arrow"><span></span></a> -->'
 		+ '				<a class="header-logo" href="index.html">'
-		+ '					<img src="'+base_url+'/assets/images/media/logos/usedCarAdda.com-Logo-(2).png" class="header-brand-img" alt="dashr logo">'
+		+ '					<img src="'+base_url+'/assets/images/media/logos/usedCarAdda.com-Logo-2.png" class="header-brand-img" alt="dashr logo">'
 		+ '				</a>'
 		+ '			</div>'
 		+ '		</div>'
@@ -238,6 +238,8 @@ $(document).ready(function () {
 	if ($(window).width() <= 767) {
 		$('div#horizontal-main-header').html('');
 		$('div#horizontal-main-header').html(responsive_header);
+
+		$()
 	}
 });
 /* Sandesh: custome for Header end   */
