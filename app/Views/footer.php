@@ -164,3 +164,6 @@
 
 		<!-- Owl Carousel Js-->
 		<script src="<?php echo base_url(); ?>/assets/js/owl-carousel.js"></script>
+
+		<!-- Sticky Sidebar Js-->
+		<script type="module" src="<?php echo base_url(); ?>/assets/js/sticky-sidebar.js"></script>
