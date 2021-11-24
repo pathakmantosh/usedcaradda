@@ -27,6 +27,7 @@
 									</a>
 								</div>
 							</div>
+
 						</div>
 					</div>
 					<a class="btn btn-primary btn-lg " href="<?php echo base_url() . '\cardetails\car\maaruti-celerio'; ?>">view Diwali Offers</a>
