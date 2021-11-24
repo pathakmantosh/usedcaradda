@@ -83,6 +83,7 @@
 						</ul>
 					</nav>
 					<!--Nav-->
+
 				</div>
 			</div>
 			<!-- /Horizontal Main -->
@@ -93,7 +94,7 @@
 						<div class="page-header">
 							<h4 class="page-title">Cars</h4>
 							<ol class="breadcrumb">
-								<li class="breadcrumb-item"><a href="#">Home</a></li>
+								<li class="breadcrumb-item"><a href="<?= $baseURL; ?>">Home</a></li>
 								<li class="breadcrumb-item"><a href="#">Categories</a></li>
 								<li class="breadcrumb-item active" aria-current="page">Cars</li>
 							</ol>
