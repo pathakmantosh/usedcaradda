@@ -13,7 +13,7 @@
 								<div class="clearfix text-center">
 									<div class="header-search-logo d-lg-block">
 										<a class="header-logo" href="index.html">
-											<img src="<?= $baseURL; ?>/assets/images/media/logos/logo.png" class="header-brand-img" alt="dashr logo">
+											<img src="<?= $baseURL; ?>/assets/images/media/logos/Logo1.png" class="header-brand-img" alt="dashr logo">
 										</a>
 									</div>
 								</div>
@@ -63,7 +63,7 @@
 						<nav class="horizontalMenu clearfix d-md-flex">
 							<ul class="horizontalMenu-list">
 								<li aria-haspopup="true"><a href="<?php echo base_url(); ?>" class="active">Home</a></li>
-								<li aria-haspopup="true"><a href="<?php echo base_url() . '/about'; ?>">USED Car </a></li>
+								<li aria-haspopup="true"><a href="<?php echo base_url() . '/category'; ?>">USED Car </a></li>
 								<li aria-haspopup="true"><a href="<?php echo base_url() . '/about'; ?>">SELL Cars </a></li>
 								<li aria-haspopup="true"><a href="<?php echo base_url() . '/about'; ?>">COMPARE</a></li>
 								<li aria-haspopup="true"><a href="<?php echo base_url() . '/about'; ?>">News</a></li>
@@ -89,7 +89,7 @@
 						<div class="page-header">
 							<h4 class="page-title">Cars</h4>
 							<ol class="breadcrumb">
-								<li class="breadcrumb-item"><a href="#">Home</a></li>
+								<li class="breadcrumb-item"><a href="<?= $baseURL; ?>">Home</a></li>
 								<li class="breadcrumb-item"><a href="#">Categories</a></li>
 								<li class="breadcrumb-item active" aria-current="page">Cars</li>
 							</ol>
