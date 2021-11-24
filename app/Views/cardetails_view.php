@@ -15,12 +15,12 @@
 
 	<!--listing-->
 	<section class="sptb detils-sptb">
-		<div class="container">
+		<div id="main-content" class="container">
 			<div class="row">
-				<div class="col-xl-8 col-lg-8 col-md-12">
+				<div class="col-xl-8 col-lg-8 col-md-12 product-left">
 					<!--Classified Description-->
 					<div class="card overflow-hidden">
-						<div class="ribbon ribbon-top-right text-danger"><span class="bg-danger">Offer</span></div>
+						<!-- <div class="ribbon ribbon-top-right text-danger"><span class="bg-danger">Offer</span></div> -->
 						<div class="card-body">
 							<div class="item-det mb-5"><br>
 								<a href="#" class="text-dark">
@@ -33,26 +33,7 @@
 										<li class="mr-5"><a href="#" class="icons"><i class="ti-calendar text-muted mr-1"></i> 5 hours ago</a></li>
 										<li class="mr-5"><a href="#" class="icons"><i class="ti-eye text-muted mr-1 fs-15"></i> 765</a></li>
 									</ul>
-									<div class="rating-stars d-flex mr-5">
-										<input type="number" readonly="readonly" class="rating-value star" name="rating-stars-value" id="rating-stars-value" value="4">
-										<div class="rating-stars-container mr-2">
-											<div class="rating-star sm">
-												<i class="fa fa-star"></i>
-											</div>
-											<div class="rating-star sm">
-												<i class="fa fa-star"></i>
-											</div>
-											<div class="rating-star sm">
-												<i class="fa fa-star"></i>
-											</div>
-											<div class="rating-star sm">
-												<i class="fa fa-star"></i>
-											</div>
-											<div class="rating-star sm">
-												<i class="fa fa-star"></i>
-											</div>
-										</div> 4.0
-									</div>
+									
 									<div class="rating-stars d-flex">
 										<div class="rating-stars-container mr-2">
 											<div class="rating-star sm">
@@ -64,7 +45,7 @@
 							</div>
 							<div class="product-slider">
 								<div id="carousel" class="carousel slide" data-ride="carousel">
-									<div class="arrow-ribbon2 bg-primary">₹ 5,00,000</div>
+									<!-- <div class="arrow-ribbon2 bg-primary">₹ 5,00,000</div> -->
 									<div class="carousel-inner">
 										<div class="carousel-item active"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/h11.jpg" alt="img"> </div>
 										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m1.jpg" alt="img"> </div>
@@ -94,7 +75,7 @@
 										<i class="fa fa-angle-right" aria-hidden="true"></i>
 									</a>
 								</div>
-								<div class="clearfix">
+								<!-- <div class="clearfix">
 									<div id="thumbcarousel" class="carousel slide thumbcarousel" data-interval="false">
 										<div class="carousel-inner">
 											<div class="carousel-item active">
@@ -136,7 +117,7 @@
 											<i class="fa fa-angle-right" aria-hidden="true"></i>
 										</a>
 									</div>
-								</div>
+								</div> -->
 							</div>
 						</div>
 					</div>
@@ -417,10 +398,9 @@
 					<!--/Comments-->
 
 				</div>
-
 				<!--Right Side Content-->
-				<div class="col-xl-4 col-lg-4 col-md-12">
-					<div class="card">
+				<div class="col-xl-4 col-lg-4 col-md-12 product-right" id="info-sidebar">
+					<div class="card sidebar__inner">
 						<!-- <div class="card-header">
 							<h3 class="card-title">Posted By</h3>
 						</div> -->
