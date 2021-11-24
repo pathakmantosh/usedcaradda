@@ -17,4 +17,8 @@ class Home extends BaseController
     {
         return view('cardetails_view',['key'=>$key,'id'=>$id]);
     }
+    public function usedcar()
+    {
+        return view('usedcar_view');
+    }
 }
