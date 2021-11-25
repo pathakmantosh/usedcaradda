@@ -12,7 +12,7 @@
 							<div class="top-bar-left d-flex">
 								<div class="clearfix text-center">
 									<div class="header-search-logo d-lg-block">
-										<a class="header-logo" href="index.html">
+										<a class="header-logo" href="<?php echo base_url(); ?>">
 											<img src="<?php echo base_url(); ?>/assets/images/media/logos/usedCarAdda.com-Logo-2.png" class="header-brand-img" alt="dashr logo">
 										</a>
 									</div>
