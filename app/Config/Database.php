@@ -32,10 +32,10 @@ class Database extends Config
      */
     public $default = [
         'DSN'      => '',
-        'hostname' => 'localhost',
-        'username' => 'root',
-        'password' => '',
-        'database' => 'used-cardeko',
+        'hostname' => '216.10.244.188',
+        'username' => 'usedcara_root',
+        'password' => 'Database@123',
+        'database' => 'usedcara_developement',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,

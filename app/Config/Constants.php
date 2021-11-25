@@ -104,6 +104,37 @@ define("DIR_CONFIG", __DIR__ . DIRECTORY_SEPARATOR);
 define("DIR_ROOT", dirname(DIR_CONFIG) . DIRECTORY_SEPARATOR);
 define("DIR_BASE", dirname(DIR_ROOT) . DIRECTORY_SEPARATOR);
 
+
+define("DIR_CLASSES", DIR_ROOT . "classes" . DIRECTORY_SEPARATOR);
+define("DIR_INCLUDE", DIR_ROOT . "includes" . DIRECTORY_SEPARATOR);
+define("DIR_ASSETS", DIR_BASE . "assets" . DIRECTORY_SEPARATOR);
+define("DIR_CSS", DIR_BASE . "css" . DIRECTORY_SEPARATOR);
+define("DIR_JS", DIR_BASE . "js" . DIRECTORY_SEPARATOR);
+define("DIR_IMAGE", DIR_ASSETS . "images" . DIRECTORY_SEPARATOR);
+define("DIR_MEDIA", DIR_IMAGE . "media" . DIRECTORY_SEPARATOR);
+define("DIR_TMP", DIR_MEDIA . "tmp" . DIRECTORY_SEPARATOR);
+define("DIR_UPLOAD", DIR_MEDIA . "uploads" . DIRECTORY_SEPARATOR);
+define("DIR_ATTACHMENT", DIR_UPLOAD . "attachments" . DIRECTORY_SEPARATOR);
+define("DIR_UPLOAD_PROFILE", DIR_UPLOAD . "profile" . DIRECTORY_SEPARATOR);
+
+/** ================================================================
+ *  BASIC URLs
+ * ================================================================== */
+define("URL_SEPARATOR", "/");
+define("PROTOCOL_BASE", (($_SERVER['REQUEST_SCHEME']) ? $_SERVER['REQUEST_SCHEME'] : "http") . "://");
+define("URL_BASE", PROTOCOL_BASE . $_SERVER['HTTP_HOST'] . URL_SEPARATOR);
+define("URL_ROOT_BASE", $_SERVER['HTTP_HOST']);
+define("URL_REL_BASE", URL_SEPARATOR);
+
+define("URL_CSS", URL_BASE . "assets" . URL_SEPARATOR . "css" . URL_SEPARATOR);
+define("URL_JS", URL_BASE . "assets" . URL_SEPARATOR . "js" . URL_SEPARATOR);
+define("URL_IMAGES", URL_BASE .  "assets" . URL_SEPARATOR."images" . URL_SEPARATOR);
+define("URL_IMAGES_MEDIA", URL_IMAGES . "media" . URL_SEPARATOR);
+
+define("URL_REL_CSS", URL_REL_BASE . "assets" . URL_SEPARATOR . "css" . URL_SEPARATOR);
+define("URL_REL_JS", URL_REL_BASE . "assets" . URL_SEPARATOR . "js" . URL_SEPARATOR);
+
+
 //if "myfile.php" is included in "PARENTFILE.php" , and you visit  "PARENTFILE.PHP?abc":
 //__FILE__                   //🡺 /home/user/public_html/subFolder/myfile.php
 //__DIR__                    //🡺 /home/user/public_html/subFolder              //same: dirname(__FILE__)    

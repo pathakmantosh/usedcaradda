@@ -24,11 +24,11 @@
 						<div class="card-body">
 							<div class="item-det mb-5"><br>
 								<a href="#" class="text-dark">
-									<h3>Maruti Celerio</h3>
+									<h3><?php echo $product[0]['product_name']; ?></h3>
 								</a>
 								<div class=" d-flex">
 									<ul class="d-flex mb-0">
-										<li class="mr-5"><a href="#" class="icons"><i class="ti-car text-muted mr-1 fs-18"></i> Cars</a></li>
+										<li class="mr-5"><a href="#" class="icons"><i class="ti-car text-muted mr-1 fs-18"></i> <?php echo $product[0]['product_category']; ?></a></li>
 										<li class="mr-5"><a href="#" class="icons"><i class="ti-location-pin text-muted mr-1"></i> USA</a></li>
 										<li class="mr-5"><a href="#" class="icons"><i class="ti-calendar text-muted mr-1"></i> 5 hours ago</a></li>
 										<li class="mr-5"><a href="#" class="icons"><i class="ti-eye text-muted mr-1 fs-15"></i> 765</a></li>
@@ -47,26 +47,13 @@
 								<div id="carousel" class="carousel slide" data-ride="carousel">
 									<!-- <div class="arrow-ribbon2 bg-primary">₹ 5,00,000</div> -->
 									<div class="carousel-inner">
-										<div class="carousel-item active"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/h11.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m1.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m2.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m3.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m4.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m5.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m6.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m7.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m8.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m9.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m10.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m11.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m12.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m13.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m14.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m15.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m16.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m17.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m18.jpg" alt="img"> </div>
-										<div class="carousel-item"> <img src="<?php echo base_url(); ?>/assets/images/media/cars/m19.jpg" alt="img"> </div>
+										<?php 
+											echo '<div class="carousel-item active"> <img src="'.URL_IMAGES_MEDIA.strtolower($product[0]['product_category']).URL_SEPARATOR.strtolower($product['image'][0]['product_image']).'" alt="img"> </div>';
+											foreach($product['image'] as $k => $image){
+												if ($k <= 1) continue;
+												echo '<div class="carousel-item"> <img src="'.URL_IMAGES_MEDIA.strtolower($product[0]['product_category']).URL_SEPARATOR.strtolower($image['product_image']).'" alt="img"> </div>';
+											}
+										?>
 									</div>
 									<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
 										<i class="fa fa-angle-left" aria-hidden="true"></i>
@@ -408,11 +395,11 @@
 							<div class="mb-0">
 								<div>
 									<a href="userprofile.html" class="text-dark">
-										<h4 class="mt-3 mb-1 font-weight-semibold">Maruti Celerio</h4>
+										<h4 class="mt-3 mb-1 font-weight-semibold"><?php echo $product[0]['product_name']; ?></h4>
 									</a>
-									<h6 class="text-muted font-weight-normal">Web designer</h6>
-									<span class="text-muted" style="font-size: 10px;">EMI starts from ₹ 10,125</span>
-									<h3 class="text-muted font-weight-bold">₹ 5,00,000</h3>
+									<h6 class="text-muted font-weight-normal">Seller Name</h6>
+									<!-- <span class="text-muted" style="font-size: 10px;">EMI starts from ₹ 10,125</span> -->
+									<h3 class="text-muted font-weight-bold"><?php echo number_to_currency($product[0]['product_sell_price'], 'INR', $locale = 1); ?></h3>
 									<!-- <h6 class="mt-2 mb-0"><a href="personal-blog.html" class="btn btn-primary btn-sm">See All Ads</a></h6> -->
 
 									<div class="row" style="margin-top: 50px;">
