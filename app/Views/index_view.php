@@ -18,13 +18,13 @@
 									<h2 class="mb-4">Find Your Right Car</h2>
 									<hr class="deep-purple  accent-2 mb-4 mt-0 d-inline-block mx-auto">
 									<div class="row">
-										<div class="form-group col-md-6">
+										<div class="form-group col-6">
 											<label class="custom-control custom-radio mr-4">
 												<input type="radio" class="custom-control-input" name="example-radios3" value="option1" checked>
 												<span class="custom-control-label">By Budget</span>
 											</label>
 										</div>
-										<div class="form-group col-md-6">
+										<div class="form-group col-6">
 											<label class="custom-control custom-radio">
 												<input type="radio" class="custom-control-input" name="example-radios3" value="option2">
 												<span class="custom-control-label">By Model</span>
@@ -88,6 +88,7 @@
 	echo view('popularbrands_view.php');
 	echo view('lestedcar_view.php');
 
+	echo view('usedcar_topcities_view.php');
 
 
 	echo view('footer.php');

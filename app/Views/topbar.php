@@ -12,8 +12,8 @@
 							<div class="top-bar-left d-flex">
 								<div class="clearfix text-center">
 									<div class="header-search-logo d-lg-block">
-										<a class="header-logo" href="<?php echo base_url(); ?>">
-											<img src="<?php echo base_url(); ?>/assets/images/media/logos/usedCarAdda.com-Logo-2.png" class="header-brand-img" alt="dashr logo">
+										<a class="header-logo" href="index.html">
+											<img src="<?php echo base_url(); ?>/assets/images/media/logos/Usedcaradda.com-logo-new.png" class="header-brand-img" alt="dashr logo">
 										</a>
 									</div>
 								</div>
@@ -67,7 +67,7 @@
 					<nav class="horizontalMenu clearfix d-md-flex">
 						<ul class="horizontalMenu-list">
 							<li aria-haspopup="true"><a href="<?php echo base_url(); ?>" class="active">Home</a></li>
-							<li aria-haspopup="true"><a href="<?php echo base_url() . '/about'; ?>">USED Car </a></li>
+							<li aria-haspopup="true"><a href="<?php echo base_url() . '/category'; ?>">USED Car </a></li>
 							<li aria-haspopup="true"><a href="<?php echo base_url() . '/about'; ?>">SELL Cars </a></li>
 							<li aria-haspopup="true"><a href="<?php echo base_url() . '/about'; ?>">COMPARE</a></li>
 							<li aria-haspopup="true"><a href="<?php echo base_url() . '/about'; ?>">News</a></li>

@@ -35,6 +35,7 @@ $routes->get('/', 'Home::index');
 $routes->add('/about', 'Home::about');
 $routes->add('/category', 'Home::category');
 $routes->add("/cardetails/(:any)/(:any)", "Home::cardetails/$1/$2");
+$routes->add('/usedcar_topcities', 'Home::usedcar_topcities');
 // $routes->get("my-route/(:num)", "Home::myRoute/$1");
 
 /*

@@ -2,8 +2,9 @@
 
 
 			<div class="container">
-				<div class="section-title center-block text-left">
+				<div class=" center-block text-left">
 					<h2>Popular Brands</h2>
+					<hr class="deep-purple  text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto" style="padding-top:20px">
 					
 				</div>
 				<div id="small-categories" class="owl-carousel owl-carousel-icons2">
@@ -201,5 +202,6 @@
 					</div>
 				</div>
 			</div>
+           </div>
 		</section>
 		<!--/Section-->

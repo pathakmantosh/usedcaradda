@@ -39,4 +39,8 @@ class Home extends BaseController
     {
         return view('category_view');
     }
+    public function usedcar_topcities()
+    {
+        return view('usedcar_topcities_view');
+    }
 }
