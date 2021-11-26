@@ -1,7 +1,8 @@
 <section class="sptb bg-patterns bg-white">
 			<div class="container">
-				<div class="section-title center-block text-left">
-					<h2>Lested cars</h2>
+				<div class="center-block text-left">
+					<h2>Latest Cars</h2>
+					<hr class="deep-purple text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto" style="padding-top:20px;">
 					
 				</div>
 				<div id="myCarousel2" class="owl-carousel owl-carousel-icons2">

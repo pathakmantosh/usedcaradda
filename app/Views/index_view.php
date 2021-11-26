@@ -93,9 +93,11 @@
 	echo view('lestedcar_view.php');
 
 
-
+	echo view('comparecar_pannel');
+	echo view('compare_view'); 
 	echo view('footer.php');
 	echo view('model_view.php');
+	
 
 	?>
 </body>

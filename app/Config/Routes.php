@@ -34,6 +34,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->add('/about', 'Home::about');
 $routes->add('/cardetails', 'Home::cardetails');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

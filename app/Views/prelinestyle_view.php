@@ -53,6 +53,8 @@
 		margin-right: 100%;
 	}
 
+	
+
 	@media only screen and (max-width: 575px) and (min-width: 0px) {
 
 		.horizontal-main {

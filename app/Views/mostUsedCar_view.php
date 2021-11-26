@@ -1,8 +1,9 @@
 <!--Section-->
-<section class="sptb bg-white">
+<section class="sptb2 bg-white">
 			<div class="container">
-				<div class="section-title left-block text-left">
+				<div class="left-block text-left">
 					<h2>The Most Searched Cars</h2>
+					<hr class="deep-purple text-primary accent-2 mb-4 mt-1 d-inline-block mx-auto" style="padding-top:20px;">
 					
 					
 				</div>

@@ -17,4 +17,5 @@ class Home extends BaseController
     {
         return view('cardetails_view');
     }
+   
 }
