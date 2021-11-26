@@ -48,8 +48,8 @@
 	.modal-dialog {
 		width: 350px;
 		border-radius: 16px;
-		max-width: 360 px;
-		min-height: 382 px;
+		max-width: 350 px;
+		min-height: 350 px;
 		height: auto;
 		margin: 0 auto;
 		bottom: auto;
@@ -71,6 +71,7 @@
 		.horizontal-main {
 			height: 0px !important;
 		}
+		.animated-arrow { margin: 0px 0 0 0px; }
 
 		.sticky-wrapper.is-sticky .horizontal-main {
 			height: 0px !important;
@@ -95,18 +96,22 @@
 			max-width: 350px;
 		}
 	}
+	.animated-arrow { margin: 0px 0 0 0px; }
 
 	@media (min-width: 768px) {
 		.modal-dialog {
 			max-width: 400px;
+			
 		}
 	}
+	.animated-arrow { margin: 0px 0 0 0px; }
 
 	@media (min-width: 992px) {
 		.modal-dialog {
 			max-width: 550px;
 		}
 	}
+	.animated-arrow { margin: 1px 0 0 0px; }
 
 	@media (min-width: 1280px) {
 		.modal-dialog {
@@ -114,6 +119,6 @@
 
 		}
 	}
-	
+	.animated-arrow { margin: 0px 0 0 0px; }
 
 </style>

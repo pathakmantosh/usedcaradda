@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+
 
 
 <body>
@@ -68,6 +68,7 @@
 		</div>
 
 		<!--Breadcrumb-->
+		
 		<div class="bg-white border-bottom">
 			<div class="container">
 				<div class="page-header">
@@ -111,105 +112,241 @@
 										<label class="custom-control custom-checkbox mb-3">
 											<input type="checkbox" class="custom-control-input" name="checkbox1" value="option1">
 											<span class="custom-control-label">
-												<a href="#" class="text-dark">Champlain<span class="label label-secondary float-right">14</span></a>
+												<a href="#" class="text-dark">Maruti<span class="label label-secondary float-right"></span></a>
 											</span>
+											
 										</label>
+										<div style="margin-left:20px;">
+										<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                 <label for="vehicle1"> Maruti Wagon R</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> Maruti Swift</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                 <label for="vehicle3"> Maruti Swift Dzire</label><br><br>
+				</div>
 										<label class="custom-control custom-checkbox mb-3">
 											<input type="checkbox" class="custom-control-input" name="checkbox2" value="option2">
 											<span class="custom-control-label">
-												<a href="#" class="text-dark">Caledonia<span class="label label-secondary float-right">22</span></a>
+												<a href="#" class="text-dark">Hyundai<span class="label label-secondary float-right"></span></a>
 											</span>
 										</label>
+										<div style="margin-left:20px;">
+										<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                 <label for="vehicle1"> Hyundai Verna</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> Hyundai Creta</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                 <label for="vehicle3"> Hyundai EON</label><br><br></div>
 										<label class="custom-control custom-checkbox mb-3">
 											<input type="checkbox" class="custom-control-input" name="checkbox3" value="option3">
 											<span class="custom-control-label">
-												<a href="#" class="text-dark">Chittenden<span class="label label-secondary float-right">78</span></a>
+												<a href="#" class="text-dark">Honda<span class="label label-secondary float-right"></span></a>
 											</span>
-										</label>
+										</label><div style="margin-left:20px;">
+										<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                 <label for="vehicle1"> Honda CR-V</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> Honda Accord</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                 <label for="vehicle3"> Honda Brio</label><br><br></div>
 										<label class="custom-control custom-checkbox mb-3">
 											<input type="checkbox" class="custom-control-input" name="checkbox4" value="option3">
 											<span class="custom-control-label">
-												<a href="#" class="text-dark">Shelburne<span class="label label-secondary float-right">35</span></a>
+												<a href="#" class="text-dark">Toyota<span class="label label-secondary float-right"></span></a>
 											</span>
-										</label>
+										</label><div style="margin-left:20px;">
+										<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                 <label for="vehicle1"> Toyota Fortuner</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> Toyota Etios</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                 <label for="vehicle3"> Toyota Etios Liva</label><br><br></div>
 										<label class="custom-control custom-checkbox mb-3">
 											<input type="checkbox" class="custom-control-input" name="checkbox5" value="option3">
 											<span class="custom-control-label">
-												<a href="#" class="text-dark">Exercitationem<span class="label label-secondary float-right">23</span></a>
+												<a href="#" class="text-dark">Mahindra<span class="label label-secondary float-right"></span></a>
 											</span>
-										</label>
+										</label><div style="margin-left:20px;">
+										<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                 <label for="vehicle1"> Mahindra XUV500</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> Mahindra Scorpio</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                 <label for="vehicle3"> Mahindra Bolero</label><br><br></div>
 										<label class="custom-control custom-checkbox mb-3">
 											<input type="checkbox" class="custom-control-input" name="checkbox6" value="option3">
 											<span class="custom-control-label">
-												<a href="#" class="text-dark">Bennington<span class="label label-secondary float-right">14</span></a>
+												<a href="#" class="text-dark">Ford<span class="label label-secondary float-right"></span></a>
 											</span>
-										</label>
+										</label><div style="margin-left:20px;">
+										<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                 <label for="vehicle1"> Ford Figo</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> Ford Figo Aspire</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                 <label for="vehicle3"> Ford Ecosport</label><br><br></div>
 										<label class="custom-control custom-checkbox mb-3">
 											<input type="checkbox" class="custom-control-input" name="checkbox7" value="option3">
 											<span class="custom-control-label">
-												<a href="#" class="text-dark">Brattleboro<span class="label label-secondary float-right">45</span></a>
+												<a href="#" class="text-dark">Volkswagen<span class="label label-secondary float-right"></span></a>
 											</span>
-										</label>
+										</label><div style="margin-left:20px;">
+										<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                 <label for="vehicle1"> Volkswagen Vento</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2">Volkswagen Polo</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                 <label for="vehicle3"> Volkswagen Ameo</label><br><br></div>
 										<label class="custom-control custom-checkbox mb-3">
 											<input type="checkbox" class="custom-control-input" name="checkbox7" value="option3">
 											<span class="custom-control-label">
-												<a href="#" class="text-dark">Killington<span class="label label-secondary float-right">34</span></a>
+												<a href="#" class="text-dark">Mercedes-Benz<span class="label label-secondary float-right"></span></a>
 											</span>
-										</label>
+										</label><div style="margin-left:20px;">
+										<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                 <label for="vehicle1"> Mercedes-Benz E-Class</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2">Mercedes-Benz GLC</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                 <label for="vehicle3"> Mercedes-Benz GLC</label><br><br></div>
 										<label class="custom-control custom-checkbox mb-3">
 											<input type="checkbox" class="custom-control-input" name="checkbox7" value="option3">
 											<span class="custom-control-label">
-												<a href="#" class="text-dark">Monastery<span class="label label-secondary float-right">12</span></a>
+												<a href="#" class="text-dark">Renault<span class="label label-secondary float-right"></span></a>
 											</span>
-										</label>
+										</label><div style="margin-left:20px;">
+										<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                 <label for="vehicle1"> Renault Duster</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2">Renault KWID</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                 <label for="vehicle3"> Renault Captur</label><br><br></div>
 										<label class="custom-control custom-checkbox mb-3">
 											<input type="checkbox" class="custom-control-input" name="checkbox7" value="option3">
 											<span class="custom-control-label">
-												<a href="#" class="text-dark">Sherbrooke<span class="label label-secondary float-right">18</span></a>
+												<a href="#" class="text-dark">Tata<span class="label label-secondary float-right"></span></a>
 											</span>
-										</label>
+										</label><div style="margin-left:20px;">
+										<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                 <label for="vehicle1"> Tata Indigo</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2">Tata Nano</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                 <label for="vehicle3"> Tata Sumo</label><br><br></div>
 										<label class="custom-control custom-checkbox mb-3">
 											<input type="checkbox" class="custom-control-input" name="checkbox7" value="option3">
 											<span class="custom-control-label">
-												<a href="#" class="text-dark">Harani<span class="label label-secondary float-right">02</span></a>
+												<a href="#" class="text-dark">Audi<span class="label label-secondary float-right"></span></a>
 											</span>
-										</label>
+										</label><div style="margin-left:20px;">
+										<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                 <label for="vehicle1"> Audi Q3</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2">Audi Q5 2021</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                 <label for="vehicle3">Audi Q7</label><br><br></div>
 										<label class="custom-control custom-checkbox mb-3">
 											<input type="checkbox" class="custom-control-input" name="checkbox7" value="option3">
 											<span class="custom-control-label">
-												<a href="#" class="text-dark">Perspiciatis<span class="label label-secondary float-right">15</span></a>
+												<a href="#" class="text-dark">Nissan<span class="label label-secondary float-right"></span></a>
 											</span>
-										</label>
+										</label><div style="margin-left:20px;">
+										<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                 <label for="vehicle1"> Nissan Sunny</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2">Nissan Micra</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                 <label for="vehicle3">Nissan Terra</label><br><br></div>
 										<label class="custom-control custom-checkbox mb-3">
 											<input type="checkbox" class="custom-control-input" name="checkbox7" value="option3">
 											<span class="custom-control-label">
-												<a href="#" class="text-dark">Slea<span class="label label-secondary float-right">32</span></a>
+												<a href="#" class="text-dark">BMW<span class="label label-secondary float-right"></span></a>
 											</span>
-										</label>
+										</label><div style="margin-left:20px;">
+										<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                 <label for="vehicle1"> BMW 3 Series</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2">BMW 5 Seriesa</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                 <label for="vehicle3">BMW X1</label><br><br></div>
 										<label class="custom-control custom-checkbox mb-3">
 											<input type="checkbox" class="custom-control-input" name="checkbox7" value="option3">
 											<span class="custom-control-label">
-												<a href="#" class="text-dark">Blanditiis<span class="label label-secondary float-right">23</span></a>
+												<a href="#" class="text-dark">Chevrolet<span class="label label-secondary float-right"></span></a>
 											</span>
-										</label>
+										</label><div style="margin-left:20px;">
+										<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                 <label for="vehicle1"> Chevrolet Cruze</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2">Chevrolet Spark</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                 <label for="vehicle3">Chevrolet Beat</label><br><br></div>
 										<label class="custom-control custom-checkbox mb-3">
 											<input type="checkbox" class="custom-control-input" name="checkbox7" value="option3">
 											<span class="custom-control-label">
-												<a href="#" class="text-dark">Shrinking <span class="label label-secondary float-right">19</span></a>
+												<a href="#" class="text-dark">Datsun<span class="label label-secondary float-right"></span></a>
 											</span>
-										</label>
+										</label><div style="margin-left:20px;">
+										<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                 <label for="vehicle1">Datsun RediGO</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2">Datsun GO Plus</label><br>
+                      <br><br></div>
 										<label class="custom-control custom-checkbox mb-3">
 											<input type="checkbox" class="custom-control-input" name="checkbox7" value="option3">
 											<span class="custom-control-label">
-												<a href="#" class="text-dark">Volkswagen<span class="label label-secondary float-right">12</span></a>
+												<a href="#" class="text-dark">Volvo<span class="label label-secondary float-right"></span></a>
 											</span>
-										</label>
+										</label><div style="margin-left:20px;">
+										<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                 <label for="vehicle1"> Volvo S60</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2">Volvo S60 Cross Country</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                 <label for="vehicle3">Volvo XC60</label><br><br></div>
 										<label class="custom-control custom-checkbox mb-3">
 											<input type="checkbox" class="custom-control-input" name="checkbox7" value="option3">
 											<span class="custom-control-label">
-												<a href="#" class="text-dark">Killington<span class="label label-secondary float-right">05</span></a>
+												<a href="#" class="text-dark">Skoda<span class="label label-secondary float-right"></a>
 											</span>
-										</label>
+										</label><div style="margin-left:20px;">
+										<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                 <label for="vehicle1"> Skoda Rapid</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2">Skoda Superb</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                 <label for="vehicle3">Skoda Kodiaq</label><br><br></div>
+				 <label class="custom-control custom-checkbox mb-3">
+											<input type="checkbox" class="custom-control-input" name="checkbox7" value="option3">
+											<span class="custom-control-label">
+												<a href="#" class="text-dark">MG<span class="label label-secondary float-right"></a>
+											</span>
+										</label><div style="margin-left:20px;">
+										<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                 <label for="vehicle1"> MG Hector</label><br>
+               
+                <br><br></div>
+				 <label class="custom-control custom-checkbox mb-3">
+											<input type="checkbox" class="custom-control-input" name="checkbox7" value="option3">
+											<span class="custom-control-label">
+												<a href="#" class="text-dark">Land Rover<span class="label label-secondary float-right"></a>
+											</span>
+										</label><div style="margin-left:20px;">
+										<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                 <label for="vehicle1"> Land Rover Freelander 2</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2">Land Rover Range Rover Evoque</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                 <label for="vehicle3">Land Rover Range Rover Sport</label><br><br></div>
+				 <label class="custom-control custom-checkbox mb-3">
+											<input type="checkbox" class="custom-control-input" name="checkbox7" value="option3">
+											<span class="custom-control-label">
+												<a href="#" class="text-dark">Kia<span class="label label-secondary float-right"></a>
+											</span>
+										</label><div style="margin-left:20px;">
+										<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                 <label for="vehicle1"> Kia Seltos</label><br>
+                <br><br></div>
 									</div>
 								</div>
 							</div>
@@ -1104,12 +1241,12 @@
 				<div class="">
 					<div class="mb-lg-0 mb-2">
 						<div class="service-card text-center">
-							<div class="bg-white icon-bg icon-service text-purple about">
-								<img src="<?= $baseURL; ?>/assets/images/png/no.1.png" alt="img">
+							<div class="bg-white ">
+								<img src="<?= $baseURL; ?>/assets/images/media/cars/no.1.png" alt="img">
 							</div>
 							<div class="servic-data mt-3">
-								<h4 class="font-weight-semibold mb-2">Worlds No 1</h4>
-								<p class="text-muted mb-0">Largest Auto portal</p>
+								<h4 class="font-weight-semibold mb-2"style="font-size:18px">India’s #1 </h4>
+								<h4 class="font-weight-semibold mb-2"style="font-size:18px">Auto Portal </h4>
 							</div>
 						</div>
 					</div>
@@ -1120,12 +1257,13 @@
 				<div class="">
 					<div class="mb-lg-0 mb-4">
 						<div class="service-card text-center">
-							<div class="bg-white icon-bg icon-service text-purple about">
-								<img src="../assets/images/png/coo.png" alt="img">
+							<div class="bg-white ">
+								<img src="../assets/images/media/cars/secure.png" alt="img">
 							</div>
-							<div class="servic-data mt-3">
-								<h4 class="font-weight-semibold mb-2">Cars Sold</h4>
-								<p class="text-muted mb-0">Every 4 minute</p>
+							<div class="servic-data mt-3" >
+								<h4 class="font-weight-semibold mb-2"style="font-size:18px">Secure &  </h4>
+								<h4 class="font-weight-semibold mb-2"style="font-size:18px">  Hassle-Free</h4>
+								
 							</div>
 						</div>
 					</div>
@@ -1135,12 +1273,12 @@
 				<div class="">
 					<div class="mb-sm-0 mb-4">
 						<div class="service-card text-center">
-							<div class="bg-white icon-bg icon-service text-purple about">
-								<img src="../assets/images/png/f1.png" alt="img">
+							<div class="bg-white ">
+								<img src="../assets/images/media/cars/fair.png" alt="img">
 							</div>
 							<div class="servic-data mt-3">
-								<h4 class="font-weight-semibold mb-2">Offers</h4>
-								<p class="text-muted mb-0">Stay updated pay less</p>
+								<h4 class="font-weight-semibold mb-2"style="font-size:18px">Fair </h4>
+								<h4 class="font-weight-semibold mb-2"style="font-size:18px">Deals</h4>
 							</div>
 						</div>
 					</div>
@@ -1150,12 +1288,12 @@
 				<div class="">
 					<div class="">
 						<div class="service-card text-center">
-							<div class="bg-white icon-bg icon-service text-purple about">
-								<img src="../assets/images/png/ca.png" alt="img">
+							<div class="bg-white">
+								<img src="../assets/images/media/cars/competitive.png" alt="img">
 							</div>
 							<div class="servic-data mt-3">
-								<h4 class="font-weight-semibold mb-2">Compare</h4>
-								<p class="text-muted mb-0">Decode the right car</p>
+								<h4 class="font-weight-semibold mb-2"style="font-size:18px">Competitive </h4>
+								<h4 class="font-weight-semibold mb-2"style="font-size:18px"> Pricing</h4>
 							</div>
 						</div>
 					</div>
