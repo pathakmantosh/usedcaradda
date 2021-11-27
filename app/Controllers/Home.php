@@ -11,7 +11,11 @@ class Home extends BaseController
     
     public function index()
     {
-        return view('index_view');
+        $pro_detail = new Products();
+        $data = ['category'=>'cars'];// category come from session
+        $data['product_sub_category'] = $pro_detail->get_product_sub_category($data);
+        $data['sub_category_product_list'] = $pro_detail->get_sub_category_product_list($data);
+        return view('index_view', $data);
     }
 
     public function about()
@@ -27,7 +31,6 @@ class Home extends BaseController
         
         if($data['product'][0]['product_alias_name'] == $id){
             $data['product']['image'] = $pro_detail->product_image(['pro_id' => $data['product'][0]['pro_id'], 'product_alias_name' => $data['product'][0]['product_alias_name']]);
-            
         }
         return view('cardetails_view',$data);
     }
@@ -38,9 +41,5 @@ class Home extends BaseController
     public function category()
     {
         return view('category_view');
-    }
-    public function usedcar_topcities()
-    {
-        return view('usedcar_topcities_view');
     }
 }
