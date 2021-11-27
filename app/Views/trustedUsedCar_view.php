@@ -34,7 +34,7 @@
                                             <div class="card mb-0">
                                                 <div class="power-ribbon power-ribbon-top-left text-warning"><span class="bg-warning"><i class="fa fa-bolt"></i></span></div>
                                                 <div class="item-card2-img">
-                                                    <a class="link" href="<?php echo base_url() . '/cardetails'.URL_SEPARATOR.strtolower($value['product_category']).URL_SEPARATOR.strtolower($image['product_alias_name']); ?>"></a>
+                                                    <a class="link" href="<?php echo base_url() . '/cardetails'.URL_SEPARATOR.strtolower($value['product_category']).URL_SEPARATOR.strtolower($value['product_alias_name']); ?>"></a>
                                                     <img src="<?php echo URL_IMAGES_MEDIA.strtolower($value['product_category']).URL_SEPARATOR.strtolower($value['product_thumbnail']); ?>" alt="img" class="cover-image">
                                                     <div class="item-tag-overlaytext">
                                                     </div>
@@ -43,7 +43,7 @@
                                                     <div class="item-card2">
                                                         <div class="item-card2-desc">
                                                             <div class="item-card2-text">
-                                                                <a href="<?php echo base_url() . '/cardetails'.URL_SEPARATOR.strtolower($value['product_category']).URL_SEPARATOR.strtolower($image['product_alias_name']); ?>" class="text-dark">
+                                                                <a href="<?php echo base_url() . '/cardetails'.URL_SEPARATOR.strtolower($value['product_category']).URL_SEPARATOR.strtolower($value['product_alias_name']); ?>" class="text-dark">
                                                                     <h4 class="mb-0"><?php echo $value['product_name']; ?></h4>
                                                                 </a>
                                                             </div>
@@ -52,7 +52,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <a class="btn btn-primary btn-lg " href="<?php echo base_url() . '/cardetails'.URL_SEPARATOR.strtolower($value['product_category']).URL_SEPARATOR.strtolower($image['product_alias_name']); ?>">view Diwali Offers</a>
+                                                <a class="btn btn-primary btn-lg " href="<?php echo base_url() . '/cardetails'.URL_SEPARATOR.strtolower($value['product_category']).URL_SEPARATOR.strtolower($value['product_alias_name']); ?>">view Diwali Offers</a>
                                             </div>
                                         </div>
                                     <?php } ?>
