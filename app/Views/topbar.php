@@ -13,7 +13,7 @@
 								<div class="clearfix text-center">
 									<div class="header-search-logo d-lg-block">
 										<a class="header-logo" href="index.html">
-											<img src="<?php echo base_url(); ?>/assets/images/media/logos/Usedcaradda.com-logo-new.png" class="header-brand-img" alt="dashr logo">
+											<img src="<?php echo base_url(); ?>/assets/images/media/logos/Usedcaradda.com-logo-Final111.png" class="header-brand-img" alt="dashr logo">
 										</a>
 									</div>
 								</div>
