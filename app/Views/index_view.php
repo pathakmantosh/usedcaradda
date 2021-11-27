@@ -83,7 +83,8 @@
 
 	<?php
 
-
+	$function = [$product_sub_category, $sub_category_product_list];
+	echo view('trustedUsedCar_view.php', $function);
 	echo view('mostUsedCar_view.php');
 	echo view('popularbrands_view.php');
 	echo view('lestedcar_view.php');
