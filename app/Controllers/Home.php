@@ -11,11 +11,7 @@ class Home extends BaseController
     
     public function index()
     {
-        $pro_detail = new Products();
-        $data = ['category'=>'cars'];// category come from session
-        $data['product_sub_category'] = $pro_detail->get_product_sub_category($data);
-        $data['sub_category_product_list'] = $pro_detail->get_sub_category_product_list($data);
-        return view('index_view', $data);
+        return view('index_view');
     }
 
     public function about()
