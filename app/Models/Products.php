@@ -56,14 +56,14 @@ class Products extends Model
     function get_product_sub_category($data)
     {
         if (!empty($data['id'])) {
-            $query = $this->db->query("SELECT products_sub_category.id, products_sub_category.sub_category_alias_name, products_sub_category.sub_category_name, products_sub_category.deleted
+            $query = $this->db->query("SELECT products_sub_category.id AS sub_cat_id, products_sub_category.sub_category_alias_name, products_sub_category.sub_category_name, products_sub_category.deleted
                                     FROM products_sub_category AS products_sub_category
                                     LEFT JOIN products_category AS products_category 
                                     ON products_category.id = products_sub_category.cat_id AND products_category.deleted = 0
                                     WHERE products_sub_category.deleted = 0 AND products_category.category_alias_name = '".$data['category']."' AND products_sub_category.id=". $data['id']);
             return $query->getResultArray();
         }else{
-            $query = $this->db->query("SELECT products_sub_category.id, products_sub_category.sub_category_alias_name, products_sub_category.sub_category_name, products_sub_category.deleted
+            $query = $this->db->query("SELECT products_sub_category.id AS sub_cat_id, products_sub_category.sub_category_alias_name, products_sub_category.sub_category_name, products_sub_category.deleted
                                     FROM products_sub_category AS products_sub_category
                                     LEFT JOIN products_category AS products_category 
                                     ON products_category.id = products_sub_category.cat_id AND products_category.deleted = 0
@@ -72,8 +72,10 @@ class Products extends Model
         }
     }
 
-    function get_sub_category_product_list(){
+    function get_sub_category_product_list($data){
+        
         if (!empty($data['sub_cat_id'])) {
+            // print_r($data);
             $query = $this->db->query("SELECT products.pro_id, products.product_name, products.product_alias_name, products.product_category, products.product_thumbnail, products_price.product_base_price, products_price.product_sell_price 
                                     FROM products AS products 
                                     INNER JOIN products_price AS products_price ON products_price.pro_id = products.pro_id AND products_price.deleted = 0 

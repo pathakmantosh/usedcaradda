@@ -62,49 +62,6 @@
 										<i class="fa fa-angle-right" aria-hidden="true"></i>
 									</a>
 								</div>
-								<!-- <div class="clearfix">
-									<div id="thumbcarousel" class="carousel slide thumbcarousel" data-interval="false">
-										<div class="carousel-inner">
-											<div class="carousel-item active">
-
-												<div data-target="#carousel" data-slide-to="0" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m20.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="1" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m21.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="2" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m22.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="3" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m23.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="4" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m24.jpg" alt="img"></div>
-
-											</div>
-											<div class="carousel-item ">
-												<div data-target="#carousel" data-slide-to="5" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m1.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="6" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m2.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="7" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m3.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="8" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m4.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="9" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m5.jpg" alt="img"></div>
-											</div>
-											<div class="carousel-item ">
-												<div data-target="#carousel" data-slide-to="10" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m6.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="11" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m7.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="12" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m8.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="13" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m9.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="14" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m10.jpg" alt="img"></div>
-											</div>
-											<div class="carousel-item ">
-												<div data-target="#carousel" data-slide-to="15" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m11.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="16" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m12.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="17" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m13.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="18" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m14.jpg" alt="img"></div>
-												<div data-target="#carousel" data-slide-to="19" class="thumb"><img src="<?php echo base_url(); ?>/assets/images/media/cars/m15.jpg" alt="img"></div>
-											</div>
-
-										</div>
-										<a class="carousel-control-prev" href="#thumbcarousel" role="button" data-slide="prev">
-											<i class="fa fa-angle-left" aria-hidden="true"></i>
-										</a>
-										<a class="carousel-control-next" href="#thumbcarousel" role="button" data-slide="next">
-											<i class="fa fa-angle-right" aria-hidden="true"></i>
-										</a>
-									</div>
-								</div> -->
 							</div>
 						</div>
 					</div>
@@ -146,7 +103,7 @@
 																			<div class="card-body">
 																				<div class="cat-item text-center">
 																					<div class="cat-img text-shadow1">
-																						<img src="<?= $baseURL ?>/assets/images/svgs/moneyBack2.svg" alt="img" class="cover-image h-8 w-8">
+																						<img src="<?php echo base_url(); ?>/assets/images/svgs/moneyBack2.svg" alt="img" class="cover-image h-8 w-8">
 																					</div>
 																					<div class="cat-desc">
 																						<h5 class="mb-1">Marquette</h5>
@@ -160,7 +117,7 @@
 																			<div class="card-body">
 																				<div class="cat-item text-center">
 																					<div class="cat-img text-shadow1">
-																						<img src="<?= $baseURL ?>/assets/images/svgs/moneyBack2.svg" alt="img" class="cover-image h-8 w-8">
+																						<img src="<?php echo base_url(); ?>/assets/images/svgs/moneyBack2.svg" alt="img" class="cover-image h-8 w-8">
 																					</div>
 																					<div class="cat-desc">
 																						<h5 class="mb-1">Marquette</h5>
@@ -174,7 +131,7 @@
 																			<div class="card-body">
 																				<div class="cat-item text-center">
 																					<div class="cat-img text-shadow1">
-																						<img src="<?= $baseURL ?>/assets/images/svgs/moneyBack2.svg" alt="img" class="cover-image h-8 w-8">
+																						<img src="<?php echo base_url(); ?>/assets/images/svgs/moneyBack2.svg" alt="img" class="cover-image h-8 w-8">
 																					</div>
 																					<div class="cat-desc">
 																						<h5 class="mb-1">Marquette</h5>
@@ -188,7 +145,7 @@
 																			<div class="card-body">
 																				<div class="cat-item text-center">
 																					<div class="cat-img text-shadow1">
-																						<img src="<?= $baseURL ?>/assets/images/svgs/moneyBack2.svg" alt="img" class="cover-image h-8 w-8">
+																						<img src="<?php echo base_url(); ?>/assets/images/svgs/moneyBack2.svg" alt="img" class="cover-image h-8 w-8">
 																					</div>
 																					<div class="cat-desc">
 																						<h5 class="mb-1">Marquette</h5>
