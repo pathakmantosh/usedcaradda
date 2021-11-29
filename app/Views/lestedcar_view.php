@@ -7,13 +7,29 @@
                     <div class="items-gallery">
                         <div class="items-blog-tab text-left">
                             <div class="items-blog-tab-heading  center-block text-left">
-					<h2>Latest Cars</h2>
-					<hr class="deep-purple  text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto" style="padding-top:20px">
+                                <h2>Latest Cars</h2><br>
+                               
+				
 					
-				</div>
+					
+					
+							
+								<div class="col-12">
+									<ul class="nav items-blog-tab-menu text-left">
+										<li class=""><a href="#tab-1" class="active show" data-toggle="tab">All</a></li>
+										
+										<li><a href="#tab-3" data-toggle="tab" class="">Volvo</a></li>
+										<li><a href="#tab-3" data-toggle="tab" class="">Porsche</a></li>
+										<li><a href="#tab-3" data-toggle="tab" class="">Kia</a></li>
+										
+									</ul><br>
+								</div>
+							</div>
+					
+						
 				<div id="myCarousel2" class="owl-carousel owl-carousel-icons2">
 					<!-- Wrapper for carousel items -->
-					<div class="item sold-out">
+					
 						
 						<div class="card mb-0">
 							<div class="item-card7-imgs">
@@ -31,9 +47,9 @@
 								</div>
 								
 							</div>
-							<a class="btn btn-primary btn-lg " href="#">view Details</a>
+							<a class="btn btn-primary btn-lg " href="#">View Details</a>
 						</div>
-					</div>
+					
 					<div class="item">
 						<div class="card mb-0">
 							
@@ -53,7 +69,7 @@
 								</div>
 								
 							</div>
-							<a class="btn btn-primary btn-lg " href="#">view Details</a>
+							<a class="btn btn-primary btn-lg " href="#">View Details</a>
 						</div>
 					</div>
 					<div class="item">
@@ -77,7 +93,7 @@
 								</div>
 								
 							</div>
-							<a class="btn btn-primary btn-lg " href="#">view Details</a>
+							<a class="btn btn-primary btn-lg " href="#">View Details</a>
 						</div>
 					</div>
 					<div class="item">
@@ -101,7 +117,7 @@
 								</div>
 								
 							</div>
-							<a class="btn btn-primary btn-lg " href="#">view Details</a>
+							<a class="btn btn-primary btn-lg " href="#">View Details</a>
 						</div>
 					</div>
 					
