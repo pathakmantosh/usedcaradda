@@ -58,9 +58,8 @@ $countt = 1;
                                                                 </a>
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                    <a class="btn btn-primary btn-lg " href="<?php echo base_url() . '/cardetails' . URL_SEPARATOR . strtolower($value['product_category']) . URL_SEPARATOR . strtolower($value['product_alias_name']); ?>">view Details</a>
-                                                </div>
+                                                    </div>                                                    
+                                                <a class="btn btn-primary btn-lg " href="<?php echo base_url() . '/cardetails'.URL_SEPARATOR.strtolower($value['product_category']).URL_SEPARATOR.strtolower($value['product_alias_name']); ?>">Car Details</a>
                                             </div>
                                         <?php } ?>
                                     </div>
