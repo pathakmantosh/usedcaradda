@@ -1,7 +1,12 @@
 
-<section class="sptb bg-patterns bg-white">
-			<div class="container">
-				<div class="center-block text-left">
+<section class="sptb">
+    <div class="container ">
+        <div class="card">
+            <div class="card-body">
+                <div class="col-md-12">
+                    <div class="items-gallery">
+                        <div class="items-blog-tab text-left">
+                            <div class="items-blog-tab-heading  center-block text-left">
 					<h2>Latest Cars</h2>
 					<hr class="deep-purple  text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto" style="padding-top:20px">
 					

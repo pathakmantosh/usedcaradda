@@ -29,7 +29,7 @@
                     <a href="cars-list.html" class="top-cities card text-center mb-xl-0 box-shadow2">
                         <img src="../assets/images/svgs/cities/001-statue-of-liberty.svg" alt="img" class="bg-pink-transparent">
                         <div class="servic-data mt-3">
-                            <h4 class="font-weight-semibold mb-0">USA</h4>
+                            <h4 class="font-weight-semibold mb-0">Mumbai</h4>
                         </div>
                     </a>
                 </div>
@@ -37,7 +37,7 @@
                     <a href="cars-list.html" class="top-cities card text-center mb-xl-0 mb-lg-5 box-shadow2">
                         <img src="../assets/images/svgs/cities/017-taj-mahal.svg" alt="img" class="svg2 bg-purple-transparent">
                         <div class="servic-data mt-3">
-                            <h4 class="font-weight-semibold mb-0">India</h4>
+                            <h4 class="font-weight-semibold mb-0">Pune</h4>
                         </div>
                     </a>
                 </div>
@@ -45,7 +45,7 @@
                     <a href="cars-list.html" class="top-cities card text-center mb-xl-0 mb-lg-5 box-shadow2">
                         <img src="../assets/images/svgs/cities/031-stonehenge.svg" alt="img" class="bg-warning-transparent">
                         <div class="servic-data mt-3">
-                            <h4 class="font-weight-semibold mb-0">England</h4>
+                            <h4 class="font-weight-semibold mb-0">Kolkata</h4>
                         </div>
                     </a>
                 </div>
@@ -53,7 +53,7 @@
                     <a href="cars-list.html" class="top-cities card text-center mb-lg-0 box-shadow2">
                         <img src="../assets/images/svgs/cities/002-sydney-opera-house.svg" alt="img" class="bg-danger-transparent">
                         <div class="servic-data mt-3">
-                            <h4 class="font-weight-semibold mb-0">Sydney</h4>
+                            <h4 class="font-weight-semibold mb-0">Jaipur</h4>
                         </div>
                     </a>
                 </div>
@@ -61,7 +61,7 @@
                     <a href="cars-list.html" class="top-cities card text-center mb-sm-0 box-shadow2">
                         <img src="../assets/images/svgs/cities/003-brandenburg-gate.svg" alt="img" class="bg-success-transparent">
                         <div class="servic-data mt-3">
-                            <h4 class="font-weight-semibold mb-0">Germany</h4>
+                            <h4 class="font-weight-semibold mb-0">New Delhi</h4>
                         </div>
                     </a>
                 </div>
@@ -69,7 +69,7 @@
                     <a href="cars-list.html" class="top-cities card text-center mb-0 box-shadow2">
                         <img src="../assets/images/svgs/cities/010-great-wall-of-china.svg" alt="img" class="bg-info-transparent">
                         <div class="servic-data mt-3">
-                            <h4 class="font-weight-semibold mb-0">China</h4>
+                            <h4 class="font-weight-semibold mb-0">Hyderabad</h4>
                         </div>
                     </a>
                 </div>

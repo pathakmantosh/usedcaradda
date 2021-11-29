@@ -52,7 +52,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <a class="btn btn-primary btn-lg " href="<?php echo base_url() . '/cardetails'.URL_SEPARATOR.strtolower($value['product_category']).URL_SEPARATOR.strtolower($value['product_alias_name']); ?>">view Diwali Offers</a>
+                                                <a class="btn btn-primary btn-lg " href="<?php echo base_url() . '/cardetails'.URL_SEPARATOR.strtolower($value['product_category']).URL_SEPARATOR.strtolower($value['product_alias_name']); ?>">Car Details</a>
                                             </div>
                                         </div>
                                     <?php } ?>

@@ -22,7 +22,7 @@
 								<hr class="deep-purple  text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
 								<ul class="list-unstyled mb-0">
 									<li>
-										<a href="#"><i class="fa fa-car mr-3 text-primary"></i> New York, NY 10012, US</a>
+										<a href="#"><i class="fa fa-car mr-3 text-primary"></i> Mumbai, NY 10012, </a>
 									</li>
 									<li>
 										<a href="#"><i class="fa fa-envelope mr-3 text-primary"></i> info12323@example.com</a></li>
