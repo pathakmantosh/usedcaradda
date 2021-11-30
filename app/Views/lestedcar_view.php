@@ -14,16 +14,7 @@
 					
 					
 							
-								<div class="col-12">
-									<ul class="nav items-blog-tab-menu text-left">
-										<li class=""><a href="#tab-1" class="active show" data-toggle="tab">All</a></li>
-										
-										<li><a href="#tab-3" data-toggle="tab" class="">Volvo</a></li>
-										<li><a href="#tab-3" data-toggle="tab" class="">Porsche</a></li>
-										<li><a href="#tab-3" data-toggle="tab" class="">Kia</a></li>
-										
-									</ul><br>
-								</div>
+								
 							</div>
 					
 						

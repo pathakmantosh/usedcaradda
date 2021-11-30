@@ -5,7 +5,7 @@
 <body>
 	<?php echo view('topbar.php'); ?>
 
-	
+
 
 	<div class="bg-white border-bottom">
 		<div class="container">
@@ -592,7 +592,7 @@
 				</div>
 				<!--/Left Side Content-->
 
-				<div class="col-xl-8 col-lg-8 col-md-12">
+				<div class="col-xl-9 col-lg-9 col-md-12">
 					<!--Lists-->
 					<div class="card">
 						<div class="border-3">
@@ -685,413 +685,111 @@
 
 
 						</div>
-						<div class="tab-content">
-							<div class="tab-pane active" id="tab-10">
-								<div class="card overflow-hidden">
-									<div class="d-md-flex">
-										<div class="item-card9-img">
-											<div class="arrow-ribbon bg-primary">Sale</div>
-											<div class="item-card9-imgs">
-												<a class="link" href="cars.html"></a>
-												<img src="<?= $baseURL; ?>/assets/images/media/cars/c1.jpg" alt="img" class="cover-image">
-											</div>
-											<div class="item-card9-icons">
-												<a href="#" class="item-card9-icons1 wishlist active"> <i class="fa fa fa-heart-o"></i></a>
-											</div>
-											<div class="item-overly-trans">
-												<div class="rating-stars">
-													<input type="number" readonly="readonly" class="rating-value star" name="rating-stars-value" value="4">
-													<div class="rating-stars-container">
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-													</div>
-												</div>
-												<span><a href="cars.html" class="bg-gray">Used</a></span>
-											</div>
-										</div>
-										<div class="card border-0 mb-0">
-											<div class="card-body ">
-												<div class="item-card9">
-													<div class="rating-stars">
-														<input type="number" readonly="readonly" class="rating-value star" name="rating-stars-value" value="3">
-													</div>
-													<a href="cars.html" class="text-dark">
-														<h4 class="font-weight-semibold mt-1">Exercitationem</h4>
-													</a>
-													<div class="item-card9-desc mb-2">
-														<a href="#" class="mr-4"><span class=""><i class="fa fa-map-marker text-muted mr-1"></i>Mumbai</span></a>
-														<a href="#" class="mr-4"><span class=""><i class="fa fa-calendar-o text-muted mr-1"></i> 5 days ago</span></a>
-													</div>
-													<p class=" leading-tight">Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-												</div>
-											</div>
-											<div class="card-footer pt-4 pb-4 pr-4 pl-4">
-												<div class="item-card9-footer d-sm-flex">
-													<div class="item-card9-cost">
-														<h4 class="text-dark font-weight-bold mb-0 mt-0">₹862.00</h4>
-													</div>
-													<div class="ml-auto">
-														<a href="#" class="mr-4" title="Car type"><i class="fa fa-car text-muted mr-1"></i> Manual</a>
-														<a href="#" class="mr-4" title="Kilometrs"><i class="fa fa-road text-muted mr-1"></i> 5000Kms</a>
-														<a href="#" class="" title="FuealType"><i class="fa fa-tachometer text-muted mr-1"></i> Disel</a>
-													</div>
-												</div>
-											</div>
-										</div>
-
+						<div class="row">
+							<div class="col-lg-6 col-md-12 col-xl-4">
+								<div class="card">
+									<div class="item-card2-img">
+										<a href="widgets.html"></a>
+										<img src="../assets/images/media/cars/VCC1.jpg" alt="img" class="cover-image">
 									</div>
-								</div>
-								<div class="card overflow-hidden">
-									<div class="d-md-flex">
-										<div class="item-card9-img">
-											<div class="arrow-ribbon bg-primary">Sale</div>
-											<div class="item-card9-imgs">
-												<a class="link" href="cars.html"></a>
-												<img src="../assets/images/media/cars/c2.jpg" alt="img" class="cover-image">
-											</div>
-											<div class="item-card9-icons">
-												<a href="#" class="item-card9-icons1 wishlist active"> <i class="fa fa fa-heart-o"></i></a>
-											</div>
-											<div class="item-overly-trans">
-												<div class="rating-stars">
-													<input type="number" readonly="readonly" class="rating-value star" name="rating-stars-value" value="4">
-													<div class="rating-stars-container">
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-													</div>
-												</div>
-												<span><a href="cars.html" class="bg-gray">Used</a></span>
-											</div>
-										</div>
-										<div class="card border-0 mb-0">
-											<div class="card-body ">
-												<div class="item-card9">
-													<div class="rating-stars">
-														<input type="number" readonly="readonly" class="rating-value star" name="rating-stars-value" value="3">
-													</div>
-													<a href="cars.html" class="text-dark">
-														<h4 class="font-weight-semibold mt-1">Exercitationem</h4>
-													</a>
-													<div class="item-card9-desc mb-2">
-														<a href="#" class="mr-4"><span class=""><i class="fa fa-map-marker text-muted mr-1"></i> Pune</span></a>
-														<a href="#" class="mr-4"><span class=""><i class="fa fa-calendar-o text-muted mr-1"></i> 5 days ago</span></a>
-													</div>
-													<p class=" leading-tight">Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-												</div>
-											</div>
-											<div class="card-footer pt-4 pb-4 pr-4 pl-4">
-												<div class="item-card9-footer d-sm-flex">
-													<div class="item-card9-cost">
-														<h4 class="text-dark font-weight-bold mb-0 mt-0">₹862.00</h4>
-													</div>
-													<div class="ml-auto">
-														<a href="#" class="mr-4" title="Car type"><i class="fa fa-car text-muted mr-1"></i> Manual</a>
-														<a href="#" class="mr-4" title="Kilometrs"><i class="fa fa-road text-muted mr-1"></i> 5000Kms</a>
-														<a href="#" class="" title="FuealType"><i class="fa fa-tachometer text-muted mr-1"></i> Disel</a>
-													</div>
-												</div>
-											</div>
-										</div>
 
+									<div class="card-body">
+										<div class="item-card2">
+											<div class="item-card2-desc">
+												<h6 class="font-weight-semibold"> 2013 Toyota Innova
+													2.5 VX (Diesel) 8 Seater</h6><br>
+
+												<a href="#" class="btn btn-primary text-center">₹ 6,70,500</a>
+												<a href="#" class="text-center"> Fixed Price</a>
+											</div>
+										</div>
 									</div>
-								</div>
-
-								<div class="card overflow-hidden">
-									<div class="d-md-flex">
-										<div class="item-card9-img">
-											<div class="arrow-ribbon bg-primary">Sale</div>
-											<div class="item-card9-imgs">
-												<a class="link" href="cars.html"></a>
-												<img src="../assets/images/media/cars/c3.jpg" alt="img" class="cover-image">
+									<div class="card-footer">
+										<div class="item-card2-footer d-flex">
+											<div class="item-card2-rating">
+												<a href="#"><i class="fa fa-star text-warning"></i></a>
+												<a href="#"><i class="fa fa-star text-warning"></i></a>
+												<a href="#"><i class="fa fa-star text-warning"></i></a>
+												<a href="#"><i class="fa fa-star text-warning"></i></a>
+												<a href="#"><i class="fa fa-star-half-o text-warning mr-1"></i>(78 reviews)</a>
 											</div>
-											<div class="item-card9-icons">
-												<a href="#" class="item-card9-icons1 wishlist active"> <i class="fa fa fa-heart-o"></i></a>
-											</div>
-											<div class="item-overly-trans">
-												<div class="rating-stars">
-													<input type="number" readonly="readonly" class="rating-value star" name="rating-stars-value" value="4">
-													<div class="rating-stars-container">
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-													</div>
-												</div>
-												<span><a href="cars.html" class="bg-gray">Used</a></span>
+											<div class="ml-auto">
+												<a href="#" class="location"><i class="fa fa-map-marker text-muted mr-1"></i>Mumbai</a>
 											</div>
 										</div>
-										<div class="card border-0 mb-0">
-											<div class="card-body ">
-												<div class="item-card9">
-													<div class="rating-stars">
-														<input type="number" readonly="readonly" class="rating-value star" name="rating-stars-value" value="3">
-													</div>
-													<a href="cars.html" class="text-dark">
-														<h4 class="font-weight-semibold mt-1">Exercitationem</h4>
-													</a>
-													<div class="item-card9-desc mb-2">
-														<a href="#" class="mr-4"><span class=""><i class="fa fa-map-marker text-muted mr-1"></i> Gujarat</span></a>
-														<a href="#" class="mr-4"><span class=""><i class="fa fa-calendar-o text-muted mr-1"></i> 5 days ago</span></a>
-													</div>
-													<p class=" leading-tight">Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-												</div>
-											</div>
-											<div class="card-footer pt-4 pb-4 pr-4 pl-4">
-												<div class="item-card9-footer d-sm-flex">
-													<div class="item-card9-cost">
-														<h4 class="text-dark font-weight-bold mb-0 mt-0">₹862.00</h4>
-													</div>
-													<div class="ml-auto">
-														<a href="#" class="mr-4" title="Car type"><i class="fa fa-car text-muted mr-1"></i> Manual</a>
-														<a href="#" class="mr-4" title="Kilometrs"><i class="fa fa-road text-muted mr-1"></i> 5000Kms</a>
-														<a href="#" class="" title="FuealType"><i class="fa fa-tachometer text-muted mr-1"></i> Disel</a>
-													</div>
-												</div>
-											</div>
-										</div>
-
-									</div>
-								</div>
-								<div class="card overflow-hidden">
-									<div class="d-md-flex">
-										<div class="item-card9-img">
-											<div class="arrow-ribbon bg-primary">Sale</div>
-											<div class="item-card9-imgs">
-												<a class="link" href="cars.html"></a>
-												<img src="<?= $baseURL; ?>/assets/images/media/cars/c1.jpg" alt="img" class="cover-image">
-											</div>
-											<div class="item-card9-icons">
-												<a href="#" class="item-card9-icons1 wishlist active"> <i class="fa fa fa-heart-o"></i></a>
-											</div>
-											<div class="item-overly-trans">
-												<div class="rating-stars">
-													<input type="number" readonly="readonly" class="rating-value star" name="rating-stars-value" value="4">
-													<div class="rating-stars-container">
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-													</div>
-												</div>
-												<span><a href="cars.html" class="bg-gray">Used</a></span>
-											</div>
-										</div>
-										<div class="card border-0 mb-0">
-											<div class="card-body ">
-												<div class="item-card9">
-													<div class="rating-stars">
-														<input type="number" readonly="readonly" class="rating-value star" name="rating-stars-value" value="3">
-													</div>
-													<a href="cars.html" class="text-dark">
-														<h4 class="font-weight-semibold mt-1">Exercitationem</h4>
-													</a>
-													<div class="item-card9-desc mb-2">
-														<a href="#" class="mr-4"><span class=""><i class="fa fa-map-marker text-muted mr-1"></i>Mumbai</span></a>
-														<a href="#" class="mr-4"><span class=""><i class="fa fa-calendar-o text-muted mr-1"></i> 5 days ago</span></a>
-													</div>
-													<p class=" leading-tight">Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-												</div>
-											</div>
-											<div class="card-footer pt-4 pb-4 pr-4 pl-4">
-												<div class="item-card9-footer d-sm-flex">
-													<div class="item-card9-cost">
-														<h4 class="text-dark font-weight-bold mb-0 mt-0">₹862.00</h4>
-													</div>
-													<div class="ml-auto">
-														<a href="#" class="mr-4" title="Car type"><i class="fa fa-car text-muted mr-1"></i> Manual</a>
-														<a href="#" class="mr-4" title="Kilometrs"><i class="fa fa-road text-muted mr-1"></i> 5000Kms</a>
-														<a href="#" class="" title="FuealType"><i class="fa fa-tachometer text-muted mr-1"></i> Disel</a>
-													</div>
-												</div>
-											</div>
-										</div>
-
-									</div>
-								</div>
-								<div class="card overflow-hidden">
-									<div class="d-md-flex">
-										<div class="item-card9-img">
-											<div class="arrow-ribbon bg-primary">Sale</div>
-											<div class="item-card9-imgs">
-												<a class="link" href="cars.html"></a>
-												<img src="<?= $baseURL; ?>/assets/images/media/cars/c1.jpg" alt="img" class="cover-image">
-											</div>
-											<div class="item-card9-icons">
-												<a href="#" class="item-card9-icons1 wishlist active"> <i class="fa fa fa-heart-o"></i></a>
-											</div>
-											<div class="item-overly-trans">
-												<div class="rating-stars">
-													<input type="number" readonly="readonly" class="rating-value star" name="rating-stars-value" value="4">
-													<div class="rating-stars-container">
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-													</div>
-												</div>
-												<span><a href="cars.html" class="bg-gray">Used</a></span>
-											</div>
-										</div>
-										<div class="card border-0 mb-0">
-											<div class="card-body ">
-												<div class="item-card9">
-													<div class="rating-stars">
-														<input type="number" readonly="readonly" class="rating-value star" name="rating-stars-value" value="3">
-													</div>
-													<a href="cars.html" class="text-dark">
-														<h4 class="font-weight-semibold mt-1">Exercitationem</h4>
-													</a>
-													<div class="item-card9-desc mb-2">
-														<a href="#" class="mr-4"><span class=""><i class="fa fa-map-marker text-muted mr-1"></i>Mumbai</span></a>
-														<a href="#" class="mr-4"><span class=""><i class="fa fa-calendar-o text-muted mr-1"></i> 5 days ago</span></a>
-													</div>
-													<p class=" leading-tight">Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-												</div>
-											</div>
-											<div class="card-footer pt-4 pb-4 pr-4 pl-4">
-												<div class="item-card9-footer d-sm-flex">
-													<div class="item-card9-cost">
-														<h4 class="text-dark font-weight-bold mb-0 mt-0">₹862.00</h4>
-													</div>
-													<div class="ml-auto">
-														<a href="#" class="mr-4" title="Car type"><i class="fa fa-car text-muted mr-1"></i> Manual</a>
-														<a href="#" class="mr-4" title="Kilometrs"><i class="fa fa-road text-muted mr-1"></i> 5000Kms</a>
-														<a href="#" class="" title="FuealType"><i class="fa fa-tachometer text-muted mr-1"></i> Disel</a>
-													</div>
-												</div>
-											</div>
-										</div>
-
-									</div>
-								</div>
-
-								<div class="card overflow-hidden">
-									<div class="d-md-flex">
-										<div class="item-card9-img">
-											<div class="arrow-ribbon bg-primary">Sale</div>
-											<div class="item-card9-imgs">
-												<a class="link" href="cars.html"></a>
-												<img src="<?= $baseURL; ?>/assets/images/media/cars/c1.jpg" alt="img" class="cover-image">
-											</div>
-											<div class="item-card9-icons">
-												<a href="#" class="item-card9-icons1 wishlist active"> <i class="fa fa fa-heart-o"></i></a>
-											</div>
-											<div class="item-overly-trans">
-												<div class="rating-stars">
-													<input type="number" readonly="readonly" class="rating-value star" name="rating-stars-value" value="4">
-													<div class="rating-stars-container">
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-														<div class="rating-star sm">
-															<i class="fa fa-star"></i>
-														</div>
-													</div>
-												</div>
-												<span><a href="cars.html" class="bg-gray">Used</a></span>
-											</div>
-										</div>
-										<div class="card border-0 mb-0">
-											<div class="card-body ">
-												<div class="item-card9">
-													<div class="rating-stars">
-														<input type="number" readonly="readonly" class="rating-value star" name="rating-stars-value" value="3">
-													</div>
-													<a href="cars.html" class="text-dark">
-														<h4 class="font-weight-semibold mt-1">Exercitationem</h4>
-													</a>
-													<div class="item-card9-desc mb-2">
-														<a href="#" class="mr-4"><span class=""><i class="fa fa-map-marker text-muted mr-1"></i>Mumbai</span></a>
-														<a href="#" class="mr-4"><span class=""><i class="fa fa-calendar-o text-muted mr-1"></i> 5 days ago</span></a>
-													</div>
-													<p class=" leading-tight">Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-												</div>
-											</div>
-											<div class="card-footer pt-4 pb-4 pr-4 pl-4">
-												<div class="item-card9-footer d-sm-flex">
-													<div class="item-card9-cost">
-														<h4 class="text-dark font-weight-bold mb-0 mt-0">₹862.00</h4>
-													</div>
-													<div class="ml-auto">
-														<a href="#" class="mr-4" title="Car type"><i class="fa fa-car text-muted mr-1"></i> Manual</a>
-														<a href="#" class="mr-4" title="Kilometrs"><i class="fa fa-road text-muted mr-1"></i> 5000Kms</a>
-														<a href="#" class="" title="FuealType"><i class="fa fa-tachometer text-muted mr-1"></i> Disel</a>
-													</div>
-												</div>
-											</div>
-										</div>
-
 									</div>
 								</div>
 							</div>
+							<div class="col-lg-6 col-md-12 col-xl-4">
+								<div class="card">
+									<div class="item-card2-img">
+										<a href="widgets.html"></a>
+										<img src="../assets/images/media/cars/VCC2.jpg" alt="img" class="cover-image">
+									</div>
+
+									<div class="card-body">
+										<div class="item-card2">
+											<div class="item-card2-desc">
+												<h6 class="font-weight-semibold text-left">2015 Maruti Swift Dzire
+													VDI
+													EMI starts from ₹ 9,952</h6><br>
+
+												<a href="#" class="btn btn-primary">₹ 4,91,500</a>
+												<a href="#" class="text-center"> Fixed Price</a>
+											</div>
+										</div>
+									</div>
+									<div class="card-footer">
+										<div class="item-card2-footer d-flex">
+											<div class="item-card2-rating">
+												<a href="#"><i class="fa fa-star text-warning"></i></a>
+												<a href="#"><i class="fa fa-star text-warning"></i></a>
+												<a href="#"><i class="fa fa-star text-warning"></i></a>
+												<a href="#"><i class="fa fa-star text-warning"></i></a>
+												<a href="#"><i class="fa fa-star-half-o text-warning mr-1"></i>(78 reviews)</a>
+											</div>
+											<div class="ml-auto">
+												<a href="#" class="location"><i class="fa fa-map-marker text-muted mr-1"></i> Pune</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-12 col-xl-4">
+								<div class="card">
+									<div class="item-card2-img">
+										<a href="widgets.html"></a>
+										<img src="../assets/images/media/cars/VCC3.jpg" alt="img" class="cover-image">
+									</div>
+
+									<div class="card-body">
+										<div class="item-card2">
+											<div class="item-card2-desc">
+												<h6 class="font-weight-semibold">2019 Volkswagen Vento
+													1.5 TDI Highline</h6><br>
+
+												<a href="#" class="btn btn-primary">₹ 7,11,000</a>
+												<a href="#" class="text-center"> Fixed Price</a>
+											</div>
+										</div>
+									</div>
+									<div class="card-footer">
+										<div class="item-card2-footer d-flex">
+											<div class="item-card2-rating">
+												<a href="#"><i class="fa fa-star text-warning"></i></a>
+												<a href="#"><i class="fa fa-star text-warning"></i></a>
+												<a href="#"><i class="fa fa-star text-warning"></i></a>
+												<a href="#"><i class="fa fa-star text-warning"></i></a>
+												<a href="#"><i class="fa fa-star-half-o text-warning mr-1"></i>(78 reviews)</a>
+											</div>
+											<div class="ml-auto">
+												<a href="#" class="location"><i class="fa fa-map-marker text-muted mr-1"></i> Delhi</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
 
 
 
@@ -1112,101 +810,435 @@
 								</ul>
 							</div>
 						</div>
-					</div><br><br><br>
-					<div class="bg-white row">
-						<h4 class="panel-title1">
-							<a class="text-dark">
-								<h3>Frequently Asked Questions On Used Car In Ahmedabad</h3>
 					</div>
-					</a>
-					<div class="card">
-						<div class="border-3">
-							<div class=" bg-white row">
-								<div class="col-md-12">
-									<div class="panel-group1" id="accordion2">
-										<div class="panel panel-default">
-											<div class="panel-heading1 ">
+					<div class="col-md-12">
+
+						<div class="items-gallery bg-white">
+							<div class="items-blog-tab text-left">
+								<div class="items-blog-tab-heading  center-block text-left">
+									<h2>Have a specific Budget in mind?</h2><br>
 
 
-												<div class="panel panel-default">
-													<div class="panel-heading1">
-														<h4 class="panel-title1">
-															<a class="accordion-toggle collapsed border border-top-0" data-toggle="collapse" data-parent="#accordion2" href="#car-comapre-3" aria-expanded="false">Q 1. How many used cars available in Ahmedabad</a>
-														</h4>
+
+
+
+
+									<div class="col-12">
+										<ul class="nav items-blog-tab-menu text-left">
+											<li class=""><a href="#tab-1" class="active show" data-toggle="tab">All</a></li>
+
+											<li><a href="#tab-3" data-toggle="tab" class="">0 - 2 Lakh</a></li>
+											<li><a href="#tab-3" data-toggle="tab" class="">2 - 3 Lakh</a></li>
+											<li><a href="#tab-3" data-toggle="tab" class="">3 - 5 Lakh</a></li>
+											<li><a href="#tab-3" data-toggle="tab" class="">5 - 8 Lakh</a></li>
+											<li><a href="#tab-3" data-toggle="tab" class="">8 - 10 Lakh</a></li>
+
+										</ul><br>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-6 col-md-12 col-xl-4">
+										<div class="card">
+											<div class="item-card2-img">
+												<a href="widgets.html"></a>
+												<img src="../assets/images/media/cars/VCC1.jpg" alt="img" class="cover-image">
+											</div>
+
+											<div class="card-body">
+												<div class="item-card2">
+													<div class="item-card2-desc">
+														<h6 class="font-weight-semibold"> 2013 Toyota Innova
+															2.5 VX (Diesel) 8 Seater</h6><br>
+
+														<a href="#" class="btn btn-primary text-center">₹ 6,70,500</a>
+														<a href="#" class="text-center"> Fixed Price</a>
 													</div>
-													<div id="car-comapre-3" class="panel-collapse collapse " role="tabpanel" aria-expanded="false">
-														<div class="panel-body border border-top-0">
-															561 used cars are available in Ahmedabad of popular brands like Maruti, Hyundai, Honda, Toyota, Mahindra & more.
+												</div>
+											</div>
+											<div class="card-footer">
+												<div class="item-card2-footer d-flex">
+													<div class="item-card2-rating">
+														<a href="#"><i class="fa fa-star text-warning"></i></a>
+														<a href="#"><i class="fa fa-star text-warning"></i></a>
+														<a href="#"><i class="fa fa-star text-warning"></i></a>
+														<a href="#"><i class="fa fa-star text-warning"></i></a>
+														<a href="#"><i class="fa fa-star-half-o text-warning mr-1"></i>(78 reviews)</a>
+													</div>
+													<div class="ml-auto">
+														<a href="#" class="location"><i class="fa fa-map-marker text-muted mr-1"></i> Pune</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-12 col-xl-4">
+										<div class="card">
+											<div class="item-card2-img">
+												<a href="widgets.html"></a>
+												<img src="../assets/images/media/cars/VCC2.jpg" alt="img" class="cover-image">
+											</div>
+
+											<div class="card-body">
+												<div class="item-card2">
+													<div class="item-card2-desc">
+														<h6 class="font-weight-semibold text-left">2015 Maruti Swift Dzire
+															VDI
+															EMI starts from ₹ 9,952</h6><br>
+
+														<a href="#" class="btn btn-primary">₹ 4,91,500</a>
+														<a href="#" class="text-center"> Fixed Price</a>
+													</div>
+												</div>
+											</div>
+											<div class="card-footer">
+												<div class="item-card2-footer d-flex">
+													<div class="item-card2-rating">
+														<a href="#"><i class="fa fa-star text-warning"></i></a>
+														<a href="#"><i class="fa fa-star text-warning"></i></a>
+														<a href="#"><i class="fa fa-star text-warning"></i></a>
+														<a href="#"><i class="fa fa-star text-warning"></i></a>
+														<a href="#"><i class="fa fa-star-half-o text-warning mr-1"></i>(78 reviews)</a>
+													</div>
+													<div class="ml-auto">
+														<a href="#" class="location"><i class="fa fa-map-marker text-muted mr-1"></i> Pune</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-12 col-xl-4">
+										<div class="card">
+											<div class="item-card2-img">
+												<a href="widgets.html"></a>
+												<img src="../assets/images/media/cars/VCC3.jpg" alt="img" class="cover-image">
+											</div>
+
+											<div class="card-body">
+												<div class="item-card2">
+													<div class="item-card2-desc">
+														<h6 class="font-weight-semibold">2019 Volkswagen Vento
+															1.5 TDI Highline</h6><br>
+
+														<a href="#" class="btn btn-primary">₹ 7,11,000</a>
+														<a href="#" class="text-center"> Fixed Price</a>
+													</div>
+												</div>
+											</div>
+											<div class="card-footer">
+												<div class="item-card2-footer d-flex">
+													<div class="item-card2-rating">
+														<a href="#"><i class="fa fa-star text-warning"></i></a>
+														<a href="#"><i class="fa fa-star text-warning"></i></a>
+														<a href="#"><i class="fa fa-star text-warning"></i></a>
+														<a href="#"><i class="fa fa-star text-warning"></i></a>
+														<a href="#"><i class="fa fa-star-half-o text-warning mr-1"></i>(78 reviews)</a>
+													</div>
+													<div class="ml-auto">
+														<a href="#" class="location"><i class="fa fa-map-marker text-muted mr-1"></i> Delhi</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="center-block text-center">
+										<ul class="pagination mb-3">
+											<li class="page-item page-prev disabled">
+												<a class="page-link" href="#" tabindex="-1">Prev</a>
+											</li>
+											<li class="page-item active"><a class="page-link" href="#">1</a></li>
+											<li class="page-item"><a class="page-link" href="#">2</a></li>
+											<li class="page-item"><a class="page-link" href="#">3</a></li>
+											<li class="page-item page-next">
+												<a class="page-link" href="#">Next</a>
+											</li>
+										</ul>
+									</div>
+									<div class="col-md-12">
+										<div class="items-gallery bg-white">
+											<div class="items-blog-tab text-left">
+												<div class="items-blog-tab-heading  center-block text-left">
+													<h2>View Used Cars By Brands</h2><br>
+
+
+
+
+
+
+													<div id="small-categories" class=" bg-white ">
+														<div class="row">
+															<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+																<div class="card bg-white mb-lg-0">
+
+																	<div class="cat-item text-center">
+																	<a href="cars-list.html"></a>
+																		<div class="cat-img text-shadow1">
+																			<img src="<?php echo base_url(); ?>/assets/images/media/brands/b.jpg" alt="img" class="cover-image h-8 w-8">
+																		</div>
+																		<div class="cat-desc">
+																			<h5 class="mb-1">Maruti</h5>
+																		</div>
+																	</div>
+
+																</div>
+															</div>
+															<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+																<div class="card bg-white mb-lg-0">
+
+																	<div class="cat-item text-center">
+																	<a href="cars-list.html"></a>
+																		<div class="cat-img text-shadow1">
+																			<img src="<?php echo base_url(); ?>/assets/images/media/brands/h.png" alt="img" class="cover-image h-8 w-8">
+																		</div>
+																		<div class="cat-desc">
+																			<h5 class="mb-1">Hyundai</h5>
+																		</div>
+																	</div>
+
+																</div>
+															</div>
+															<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+																<div class="card bg-white mb-lg-0">
+
+																	<div class="cat-item text-center">
+																	<a href="cars-list.html"></a>
+																		<div class="cat-img text-shadow1">
+																			<img src="<?php echo base_url(); ?>/assets/images/media/brands/ho.jpg" alt="img" class="cover-image h-8 w-8">
+																		</div>
+																		<div class="cat-desc">
+																			<h5 class="mb-1">Honda</h5>
+																		</div>
+																	</div>
+
+																</div>
+															</div>
+															<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+																<div class="card bg-white mb-lg-0">
+
+																	<div class="cat-item text-center">
+																	<a href="cars-list.html"></a>
+																		<div class="cat-img text-shadow1">
+																			<img src="<?php echo base_url(); ?>/assets/images/media/brands/c10.jpg" alt="img" class="cover-image h-8 w-8">
+																		</div>
+																		<div class="cat-desc">
+																			<h5 class="mb-1">Toyota</h5>
+																		</div>
+																	</div>
+
+																</div>
+															</div>
 														</div>
-													</div>
-												</div>
-											</div>
-										</div>
+													</div><br><br>
+													<div class="row">
+														<div class="col-lg-6 col-md-12 col-xl-4">
+															<div class="card">
+																<div class="item-card2-img">
+																	<a href="widgets.html"></a>
+																	<img src="../assets/images/media/cars/VCC1.jpg" alt="img" class="cover-image">
+																</div>
 
-										<div class="panel panel-default">
-											<div class="panel-heading1">
-												<h4 class="panel-title1">
-													<a class="accordion-toggle collapsed border border-top-0" data-toggle="collapse" data-parent="#accordion2" href="#car-comapre-4" aria-expanded="false">Q 2. What will be the starting price of a used car in Ahmedabad?</a>
-												</h4>
-											</div>
-											<div id="car-comapre-4" class="panel-collapse collapse " role="tabpanel" aria-expanded="false">
-												<div class="panel-body border border-top-0">
-													<div class="table-responsive">
-														561 used car are available in Ahmedabad & the price starts at Rs 55,000 in Ahmedabad.
-													</div>
-												</div>
-											</div>
+																<div class="card-body">
+																	<div class="item-card2">
+																		<div class="item-card2-desc">
+																			<h6 class="font-weight-semibold"> 2013 Toyota Innova
+																				2.5 VX (Diesel) 8 Seater</h6><br>
 
-										</div>
+																			<a href="#" class="btn btn-primary text-center">₹ 6,70,500</a>
+																			<a href="#" class="text-center"> Fixed Price</a>
+																		</div>
+																	</div>
+																</div>
+																<div class="card-footer">
+																	<div class="item-card2-footer d-flex">
+																		<div class="item-card2-rating">
+																			<a href="#"><i class="fa fa-star text-warning"></i></a>
+																			<a href="#"><i class="fa fa-star text-warning"></i></a>
+																			<a href="#"><i class="fa fa-star text-warning"></i></a>
+																			<a href="#"><i class="fa fa-star text-warning"></i></a>
+																			<a href="#"><i class="fa fa-star-half-o text-warning mr-1"></i>(78 reviews)</a>
+																		</div>
+																		<div class="ml-auto">
+																			<a href="#" class="location"><i class="fa fa-map-marker text-muted mr-1"></i> Pune</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-lg-6 col-md-12 col-xl-4">
+															<div class="card">
+																<div class="item-card2-img">
+																	<a href="widgets.html"></a>
+																	<img src="../assets/images/media/cars/VCC2.jpg" alt="img" class="cover-image">
+																</div>
+
+																<div class="card-body">
+																	<div class="item-card2">
+																		<div class="item-card2-desc">
+																			<h6 class="font-weight-semibold text-left">2015 Maruti Swift Dzire
+																				VDI
+																				EMI starts from ₹ 9,952</h6><br>
+
+																			<a href="#" class="btn btn-primary">₹ 4,91,500</a>
+																			<a href="#" class="text-center"> Fixed Price</a>
+																		</div>
+																	</div>
+																</div>
+																<div class="card-footer">
+																	<div class="item-card2-footer d-flex">
+																		<div class="item-card2-rating">
+																			<a href="#"><i class="fa fa-star text-warning"></i></a>
+																			<a href="#"><i class="fa fa-star text-warning"></i></a>
+																			<a href="#"><i class="fa fa-star text-warning"></i></a>
+																			<a href="#"><i class="fa fa-star text-warning"></i></a>
+																			<a href="#"><i class="fa fa-star-half-o text-warning mr-1"></i>(78 reviews)</a>
+																		</div>
+																		<div class="ml-auto">
+																			<a href="#" class="location"><i class="fa fa-map-marker text-muted mr-1"></i> Pune</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-lg-6 col-md-12 col-xl-4">
+															<div class="card">
+																<div class="item-card2-img">
+																	<a href="widgets.html"></a>
+																	<img src="../assets/images/media/cars/VCC3.jpg" alt="img" class="cover-image">
+																</div>
+
+																<div class="card-body">
+																	<div class="item-card2">
+																		<div class="item-card2-desc">
+																			<h6 class="font-weight-semibold">2019 Volkswagen Vento
+																				1.5 TDI Highline</h6><br>
+
+																			<a href="#" class="btn btn-primary">₹ 7,11,000</a>
+																			<a href="#" class="text-center"> Fixed Price</a>
+																		</div>
+																	</div>
+																</div>
+																<div class="card-footer">
+																	<div class="item-card2-footer d-flex">
+																		<div class="item-card2-rating">
+																			<a href="#"><i class="fa fa-star text-warning"></i></a>
+																			<a href="#"><i class="fa fa-star text-warning"></i></a>
+																			<a href="#"><i class="fa fa-star text-warning"></i></a>
+																			<a href="#"><i class="fa fa-star text-warning"></i></a>
+																			<a href="#"><i class="fa fa-star-half-o text-warning mr-1"></i>(78 reviews)</a>
+																		</div>
+																		<div class="ml-auto">
+																			<a href="#" class="location"><i class="fa fa-map-marker text-muted mr-1"></i> Delhi</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="center-block text-center">
+															<ul class="pagination mb-3">
+																<li class="page-item page-prev disabled">
+																	<a class="page-link" href="#" tabindex="-1">Prev</a>
+																</li>
+																<li class="page-item active"><a class="page-link" href="#">1</a></li>
+																<li class="page-item"><a class="page-link" href="#">2</a></li>
+																<li class="page-item"><a class="page-link" href="#">3</a></li>
+																<li class="page-item page-next">
+																	<a class="page-link" href="#">Next</a>
+																</li>
+															</ul>
+														</div>
+														<div class="bg-white row">
+															<h4 class="panel-title1">
+																<a class="text-dark">
+																	<h3>Frequently Asked Questions On Used Car In Ahmedabad</h3>
+														</div>
+														</a>
+														<div class="card">
+															<div class="border-3">
+																<div class=" bg-white row">
+																	<div class="col-md-12">
+																		<div class="panel-group1" id="accordion2">
+																			<div class="panel panel-default">
+																				<div class="panel-heading1 ">
 
 
-										<div class="panel panel-default">
-											<div class="panel-heading1">
-												<h4 class="panel-title1">
-													<a class="accordion-toggle collapsed border border-top-0" data-toggle="collapse" data-parent="#accordion2" href="#car-comapre-5" aria-expanded="false">Q 3. What are the most popular brands available for used cars in Ahmedabad? </a>
-												</h4>
-											</div>
-											<div id="car-comapre-5" class="panel-collapse collapse " role="tabpanel" aria-expanded="false">
-												<div class="panel-body border border-top-0">
-													<div class="table-responsive">
-														CarDekho has a wide inventory of all brands including Maruti, Hyundai, Honda, Toyota, Mahindra & more. Find the best-used car of your choice on CarDekho.
-													</div>
-												</div>
-											</div>
-										</div>
+																					<div class="panel panel-default">
+																						<div class="panel-heading1">
+																							<h4 class="panel-title1">
+																								<a class="accordion-toggle collapsed border border-top-0" data-toggle="collapse" data-parent="#accordion2" href="#car-comapre-3" aria-expanded="false">Q 1. How many used cars available in Ahmedabad</a>
+																							</h4>
+																						</div>
+																						<div id="car-comapre-3" class="panel-collapse collapse " role="tabpanel" aria-expanded="false">
+																							<div class="panel-body border border-top-0">
+																								561 used cars are available in Ahmedabad of popular brands like Maruti, Hyundai, Honda, Toyota, Mahindra & more.
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+
+																			<div class="panel panel-default">
+																				<div class="panel-heading1">
+																					<h4 class="panel-title1">
+																						<a class="accordion-toggle collapsed border border-top-0" data-toggle="collapse" data-parent="#accordion2" href="#car-comapre-4" aria-expanded="false">Q 2. What will be the starting price of a used car in Ahmedabad?</a>
+																					</h4>
+																				</div>
+																				<div id="car-comapre-4" class="panel-collapse collapse " role="tabpanel" aria-expanded="false">
+																					<div class="panel-body border border-top-0">
+																						<div class="table-responsive">
+																							561 used car are available in Ahmedabad & the price starts at Rs 55,000 in Ahmedabad.
+																						</div>
+																					</div>
+																				</div>
+
+																			</div>
 
 
-										<div class="panel panel-default">
-											<div class="panel-heading1">
-												<h4 class="panel-title1">
-													<a class="accordion-toggle collapsed border border-top-0" data-toggle="collapse" data-parent="#accordion2" href="#car-comapre-6" aria-expanded="false">Q 4. How many used diesel cars available in Ahmedabad?</a>
-												</h4>
-											</div>
-											<div id="car-comapre-6" class="panel-collapse collapse " role="tabpanel" aria-expanded="false">
-												<div class="panel-body border border-top-0">
-													<div class="table-responsive">
-														Used cars are available in both petrol and diesel options. 348 second-hand diesel cars available in Ahmedabad. Popular used diesel cars are Ford Ecosport, Maruti Swift, Maruti Swift & more and price starts at Rs 3.4 Lakh.
-													</div>
-												</div>
-											</div>
-										</div>
+																			<div class="panel panel-default">
+																				<div class="panel-heading1">
+																					<h4 class="panel-title1">
+																						<a class="accordion-toggle collapsed border border-top-0" data-toggle="collapse" data-parent="#accordion2" href="#car-comapre-5" aria-expanded="false">Q 3. What are the most popular brands available for used cars in Ahmedabad? </a>
+																					</h4>
+																				</div>
+																				<div id="car-comapre-5" class="panel-collapse collapse " role="tabpanel" aria-expanded="false">
+																					<div class="panel-body border border-top-0">
+																						<div class="table-responsive">
+																							CarDekho has a wide inventory of all brands including Maruti, Hyundai, Honda, Toyota, Mahindra & more. Find the best-used car of your choice on CarDekho.
+																						</div>
+																					</div>
+																				</div>
+																			</div>
 
 
-										<div class="panel panel-default">
-											<div class="panel-heading1">
-												<h4 class="panel-title1">
-													<a class="accordion-toggle collapsed border border-top-0" data-toggle="collapse" data-parent="#accordion2" href="#car-comapre-7" aria-expanded="false">Q 5. What body types are available for used cars in Ahmedabad?</a>
-												</h4>
-											</div>
-											<div id="car-comapre-7" class="panel-collapse collapse " role="tabpanel" aria-expanded="false">
-												<div class="panel-body border border-top-0">
-													<div class="table-responsive">
-														Used cars are available in every segment be it Hatchback, Sedan, SUV, Luxury, MUV, Minivan and Pickup Truck cars in Ahmedabad. At CarDekho we have 197 Hatchback, 167 Sedan, 141 SUV, 46 Luxury, 41 MUV, 13 Minivan and 1 Pickup Truck Cars available in Ahmedabad.
-													</div>
+																			<div class="panel panel-default">
+																				<div class="panel-heading1">
+																					<h4 class="panel-title1">
+																						<a class="accordion-toggle collapsed border border-top-0" data-toggle="collapse" data-parent="#accordion2" href="#car-comapre-6" aria-expanded="false">Q 4. How many used diesel cars available in Ahmedabad?</a>
+																					</h4>
+																				</div>
+																				<div id="car-comapre-6" class="panel-collapse collapse " role="tabpanel" aria-expanded="false">
+																					<div class="panel-body border border-top-0">
+																						<div class="table-responsive">
+																							Used cars are available in both petrol and diesel options. 348 second-hand diesel cars available in Ahmedabad. Popular used diesel cars are Ford Ecosport, Maruti Swift, Maruti Swift & more and price starts at Rs 3.4 Lakh.
+																						</div>
+																					</div>
+																				</div>
+																			</div>
 
-												</div>
-											</div>
-										</div>
+
+																			<div class="panel panel-default">
+																				<div class="panel-heading1">
+																					<h4 class="panel-title1">
+																						<a class="accordion-toggle collapsed border border-top-0" data-toggle="collapse" data-parent="#accordion2" href="#car-comapre-7" aria-expanded="false">Q 5. What body types are available for used cars in Ahmedabad?</a>
+																					</h4>
+																				</div>
+																				<div id="car-comapre-7" class="panel-collapse collapse " role="tabpanel" aria-expanded="false">
+																					<div class="panel-body border border-top-0">
+																						<div class="table-responsive">
+																							Used cars are available in every segment be it Hatchback, Sedan, SUV, Luxury, MUV, Minivan and Pickup Truck cars in Ahmedabad. At CarDekho we have 197 Hatchback, 167 Sedan, 141 SUV, 46 Luxury, 41 MUV, 13 Minivan and 1 Pickup Truck Cars available in Ahmedabad.
+																						</div>
+
+																					</div>
+																				</div>
+																			</div>
 
 	</section>
 
@@ -1277,11 +1309,10 @@
 	</div>
 	</div><br><br>
 	</section><?php
-	echo view('footer.php');
-	echo view('model_view.php');
+				echo view('footer.php');
+				echo view('model_view.php');
 
-	?>
+				?>
 </body>
 
 </html>
-	
