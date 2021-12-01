@@ -60,7 +60,7 @@ $countt = 1;
                                                         </div>
                                                     </div>                                                    
                                                 <a class="btn btn-primary btn-lg " href="<?php echo base_url() . '/cardetails'.URL_SEPARATOR.strtolower($value['product_category']).URL_SEPARATOR.strtolower($value['product_alias_name']); ?>">Car Details</a>
-                                            </div>
+                                            </div></div>
                                         <?php } ?>
                                     </div>
                                 </div>
@@ -74,7 +74,7 @@ $countt = 1;
                                         $sub_category_product_list = $pro_detail->get_sub_category_product_list(['sub_cat_id' => $value['sub_cat_id']]);
                                         foreach ($sub_category_product_list as $key => $sub_value) {
                                         ?>
-                                            <div class="item">
+                                            <!-- <div class="item">
                                                 <div class="card mb-0">
                                                     <div class="power-ribbon power-ribbon-top-left text-warning"><span class="bg-warning"><i class="fa fa-bolt"></i></span></div>
                                                     <div class="item-card2-img">
@@ -98,7 +98,7 @@ $countt = 1;
                                                     </div>
                                                     <a class="btn btn-primary btn-lg " href="<?php echo base_url() . '/cardetails' . URL_SEPARATOR . strtolower($sub_value['product_category']) . URL_SEPARATOR . strtolower($sub_value['product_alias_name']); ?>">view Details</a>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         <?php } ?>
                                     </div>
                                 </div>

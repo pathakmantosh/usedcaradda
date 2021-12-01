@@ -1,5 +1,7 @@
 <section class="sptb">
     <div class="container">
+    <div class="card">
+            <div class="card-body">
         <div class="row">
             <div class="col-md-6" style="font-size:10px">
                 <div class=" center-block text-left">
@@ -74,6 +76,7 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </div></div>
+            </div>
     </div>
 </section>
